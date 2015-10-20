@@ -8,6 +8,7 @@ class Story:
 		self.properties = storyInfo[1]
 		self.storyText = re.sub("\\\\newline", " ", re.sub("\\newline", "", storyInfo[2]))
 		questions = []
+		self.answers = []
 		numQuestions = 4
 		for i in xrange(numQuestions):
 			startIndex = 3 + i * 5
@@ -27,13 +28,22 @@ class Story:
 
 	def answerQuestions(self):
 		for questionInfo in self.questions:
-			self._findAnswerToQuestion(questionInfo)
+			answerIndex = self._findAnswerToQuestion(questionInfo)
+			self.answers.append("ABCD"[answerIndex])
+			print "ABCD"[answerIndex], questionInfo["answers"][answerIndex]
+		return self.answers
+
 
 	def _findAnswerToQuestion(self, questionInfo):
 		questionText = questionInfo["question"].strip("?")
 		answers = questionInfo["answers"]
 		mostSimilarSentence = self._findMostSimilarSentence(questionText, answers, self.storyText)
-		print questionText, ":", mostSimilarSentence
+
+		for i, answer in enumerate(answers):
+			if mostSimilarSentence and answer in mostSimilarSentence:
+				return i
+		return 2 #C is always right
+
 
 	#returns the sentence most similar to a given text in a story.
 	def _findMostSimilarSentence(self, questionText, answers, story):
@@ -60,12 +70,24 @@ def readInData(filename):
 
 	return allStories
 
+def readInAnswers(filename):
+	with open(filename) as f:
+		allAnswers = []
+		for line in f:
+			allAnswers.append(line.split("\t"))
+
+	return allAnswers
 
 def main():
 	allStories = readInData("MCTest/mc160.dev.tsv")
-	story = allStories[0]
+	allAnswers = readInAnswers("MCTest/mc160.dev.ans")
+	numCorrect = 0.0
 
-	story.answerQuestions()
+	for correctAnswers, story in zip(allAnswers, allStories):
+		proposedAnswers = story.answerQuestions()
+		numCorrect += sum(correctAnswers[i] == proposedAnswers[i] for i in xrange(len(correctAnswers)))
+
+	print numCorrect / len(allStories) / 4.0
 
 
 
