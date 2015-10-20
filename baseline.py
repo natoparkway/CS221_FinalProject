@@ -37,12 +37,13 @@ class Story:
 	def _findAnswerToQuestion(self, questionInfo):
 		questionText = questionInfo["question"].strip("?")
 		answers = questionInfo["answers"]
-		mostSimilarSentence = self._findMostSimilarSentence(questionText, answers, self.storyText)
+		return self._findMostSimilarSentence(questionText, answers, self.storyText)
+		# mostSimilarSentence = self._findMostSimilarSentence(questionText, answers, self.storyText)
 
-		for i, answer in enumerate(answers):
-			if mostSimilarSentence and answer in mostSimilarSentence:
-				return i
-		return 2 #C is always right
+		# for i, answer in enumerate(answers):
+		# 	if mostSimilarSentence and answer in mostSimilarSentence:
+		# 		return i
+		# return 2 #C is always right
 
 
 	#returns the sentence most similar to a given text in a story.
@@ -54,14 +55,16 @@ class Story:
 
 		sentences = map(str.strip, story.split("."))
 		possibleAnswerSentences = []
-		for answer in answers:
-			possibleAnswerSentences += [sentence for sentence in sentences if answer in sentence]
+		answerProbabilities = [max((jaccardSim(questionText + " " + answer, sentence)) for sentence in sentences) for answer in answers]
+		return answerProbabilities.index(max(answerProbabilities))
+		# for answer in answers:
+		# 	possibleAnswerSentences += [sentence for sentence in sentences if answer in sentence]
 		
-		if not possibleAnswerSentences:
-			return None
+		# if not possibleAnswerSentences:
+		# 	return None
 		
-		bestMatch = max((jaccardSim(questionText, sentence), sentence) for sentence in possibleAnswerSentences)		
-		return bestMatch[1]
+		# bestMatch = max((jaccardSim(questionText, sentence), sentence) for sentence in possibleAnswerSentences)		
+		# return bestMatch[1]
 
 
 def readInData(filename):
