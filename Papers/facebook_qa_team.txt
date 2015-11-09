@@ -1,0 +1,10 @@
+Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks
+http://arxiv.org/pdf/1502.05698.pdf
+
+INTRODUCTION
+There hasn't been that much supervised machine learning in this space due to a lack of large scale training datasets and difficulty in structuring statistical models flexible enough to exploit document structure
+Researches have been able to generate synthetic narratives and queries
+It's really tough to capture the complexity and noise of natural language
+
+Goal: Introduce a novel approach to building a supervised reading comprehension data set
+Data Set: https://github.com/deepmind/rc-data/

@@ -1,0 +1,15 @@
+A Neural Attention Model for Abstractive Sentence Summarization
+http://arxiv.org/pdf/1509.00685.pdf
+
+"We propose a full data-drive approach to sentence summarization"
+Utilizes a local attention-based model that generates each word of the summary conditioned on the input sentence. 
+	- This is different from the typical extractive approach. There, you crop out and stitch together, while here you build a potentially new summary.
+	- This tries to mimic human summarizers (to some extent)
+Builds on DUC-2004 shared task
+Modeled off attention-based encoder of Bahdanau et al (2014)
+	- What is an attention-based encoder?
+
+DATA:
+4 million article->summary pairs from Gigaword (Graff et al 2003)
+
+
