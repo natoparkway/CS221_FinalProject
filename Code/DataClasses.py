@@ -19,31 +19,63 @@ class Dataset:
 				self.stories.append(Story(storyInfo))
 
 
-	def getInputOutputFormat(self):
+	def getClassifierFormat(self):
 		"""
-		Returns story data as a tuple of (input, output)
+		Returns story data as a list of tuples of (input, output)
+		Note that each story will appear 16 times - 4 times for each of 4 questions.
 		Sample elem:
 			({
 				text: STORY_TEXT,
 				question: QUESTION,
 				proposedAnswer: PROPOSED,
-			}, 0)
+				isCorrect: BOOLEAN,
+				remainingAnswers: [ANSWER1, ANSWER2, ...]
+			}, -1)
 		"""
 		data = []
 		for story, answerSet in zip(self.stories, self.answerSets):
 			for qIndex, question in enumerate(story.questions):
 				for aIndex, answer in enumerate(question.possibleAnswers):
-					isCorrect = 1 if aIndex == answerSet[qIndex] else -1
+					isCorrect = aIndex == answerSet[qIndex]
 					data.append(({
 						"text": story.storyText,
 						"question": question,
-						"proposedAnswer": answer
+						"proposedAnswer": answer,
+						"isCorrect": isCorrect,
+						"remainingAnswers": question.possibleAnswers[:aIndex] + question.possibleAnswers[aIndex + 1:]
 					}, isCorrect))
 
 		return data
 
-	def getQuestionAnswer(self, question):
-		return "NOT IMPLEMENTED"
+
+
+	def getEvaluationFormat(self):
+		"""
+		Returns story data as a dictionary with
+		Note that each story will appear 4 times - once for each of its questions 
+		Sample elem:
+			[{
+				"dataPoints": [STORYCHOOSE1, STORYCHOOSE2, STORYCHOOSE3]
+				"correctDataPointIndex": 0
+			}
+		"""
+		trainingData = self.getClassifierFormat()
+		evaluationData = []
+		for storyIndex in xrange(0, len(trainingData), 4):
+			proposedAnswers = []
+			correctAnswerIndex = -1
+			for answerIndex in xrange(4):
+				if trainingData[storyIndex + answerIndex][1]: correctAnswerIndex = answerIndex
+				proposedAnswers.append(trainingData[storyIndex + answerIndex][0])
+			evaluationData.append({
+				"proposedAnswers": proposedAnswers,
+				"correctAnswerIndex": correctAnswerIndex
+			})
+
+		return evaluationData
+
+
+
 
 class Story:
 	"""
@@ -58,7 +90,7 @@ class Story:
 				possibleAnswers (array)
 
 	"""
-	def __init__(self, storyInfo, ):
+	def __init__(self, storyInfo):
 		storyInfo = map(str.lower, storyInfo.split('\t'))
 		self.storyID = storyInfo[0]
 		self.properties = storyInfo[1]

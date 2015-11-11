@@ -21,5 +21,18 @@ def evaluatePredictor(examples, predictor):
 			error += 1
 	return 1.0 * error / len(examples)
 
-def testWeightsOnStories(weights, data, featureExtractor, dataset):
-	#NEED TO IMPLEMENT
+def testWeightsOnStories(data, weights, featureExtractor):
+	numCorrect = 0 
+	for datapoint in data:
+		proposedAnswers = datapoint["proposedAnswers"]
+		correctIndex = datapoint["correctAnswerIndex"]
+		bestAnswerIndex = -1
+		bestAnswerScore = float("-inf")
+		for aIndex, proposed in enumerate(proposedAnswers):
+			score = dotProduct(weights, featureExtractor(proposed))
+			if score > bestAnswerScore:
+				bestAnswerIndex = aIndex
+				bestAnswerScore = score
+		numCorrect += correctIndex == bestAnswerIndex
+
+	return float(numCorrect) / len(data)
