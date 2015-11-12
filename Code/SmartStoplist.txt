@@ -127,7 +127,6 @@ e
 each
 edu
 eg
-eight
 either
 else
 elsewhere
@@ -152,7 +151,6 @@ far
 few
 fifth
 first
-five
 followed
 following
 follows
@@ -160,7 +158,6 @@ for
 former
 formerly
 forth
-four
 from
 further
 furthermore
@@ -299,7 +296,6 @@ never
 nevertheless
 new
 next
-nine
 no
 nobody
 non
@@ -320,10 +316,8 @@ often
 oh
 ok
 okay
-old
 on
 once
-one
 ones
 only
 onto
@@ -390,14 +384,12 @@ sensible
 sent
 serious
 seriously
-seven
 several
 shall
 she
 should
 shouldn't
 since
-six
 so
 some
 somebody
@@ -460,7 +452,6 @@ thorough
 thoroughly
 those
 though
-three
 through
 throughout
 thru
@@ -477,7 +468,6 @@ truly
 try
 trying
 twice
-two
 u
 un
 under
