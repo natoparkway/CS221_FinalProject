@@ -1,7 +1,5 @@
 import re
 
-
-
 class Dataset:
 	def __init__(self):
 		self.stories = []
@@ -19,13 +17,16 @@ class Dataset:
 				self.stories.append(Story(storyInfo))
 
 
-	def getClassifierFormat(self):
+	def getClassifierFormat(self, preprocessFn = None):
 		"""
+		preprocessFn is an optional function that takes in storyText and returns data
+		representing the preprocessed form of the story.
 		Returns story data as a list of tuples of (input, output)
 		Note that each story will appear 16 times - 4 times for each of 4 questions.
 		Sample elem:
 			({
 				text: STORY_TEXT,
+				processedStory: PREPROCESSED STORY DATA or None if no preprocessFn was supplied
 				question: QUESTION,
 				proposedAnswer: PROPOSED,
 				isCorrect: BOOLEAN,
@@ -34,11 +35,15 @@ class Dataset:
 		"""
 		data = []
 		for story, answerSet in zip(self.stories, self.answerSets):
+			processedStory = None
+			if preprocessFn:
+				processedStory = preprocessFn(story.storyText)
 			for qIndex, question in enumerate(story.questions):
 				for aIndex, answer in enumerate(question.possibleAnswers):
 					isCorrect = aIndex == answerSet[qIndex]
 					data.append(({
 						"text": story.storyText,
+						"processedStory": processedStory,
 						"question": question,
 						"proposedAnswer": answer,
 						"isCorrect": isCorrect,
@@ -49,7 +54,7 @@ class Dataset:
 
 
 
-	def getEvaluationFormat(self):
+	def getEvaluationFormat(self, preprocessFn = None):
 		"""
 		Returns story data as a dictionary with
 		Note that each story will appear 4 times - once for each of its questions 
@@ -59,7 +64,7 @@ class Dataset:
 				"correctDataPointIndex": 0
 			}
 		"""
-		trainingData = self.getClassifierFormat()
+		trainingData = self.getClassifierFormat(preprocessFn)
 		evaluationData = []
 		for storyIndex in xrange(0, len(trainingData), 4):
 			proposedAnswers = []
