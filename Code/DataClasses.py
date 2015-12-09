@@ -58,6 +58,7 @@ class Dataset:
 				processedStory: PREPROCESSED STORY DATA or None if no preprocessFn was supplied
 				question: QUESTION,
 				proposedAnswer: PROPOSED,
+				proposedAnswerIndex: int,
 				isCorrect: BOOLEAN,
 				remainingAnswers: [ANSWER1, ANSWER2, ...]
 			}, -1)
@@ -76,6 +77,7 @@ class Dataset:
 						"processedStoryText": processedStory,
 						"question": question,
 						"proposedAnswer": answer,
+						"proposedAnswerIndex": aIndex,
 						"isCorrect": isCorrect,
 						"remainingAnswers": question.possibleAnswers[:aIndex] + question.possibleAnswers[aIndex + 1:]
 					}, isCorrect))
@@ -134,6 +136,7 @@ class Story:
 				text
 				numSentencesRequired (e.g multiple)
 				possibleAnswers (array)
+				parsedAnswers: an array of 4 arrays of parsedInfo data structures
 
 	"""
 	def __init__(self, storyInfo, parsedDict=None):
@@ -150,7 +153,7 @@ class Story:
 			possibleAnswers = storyInfo[startIndex + 1:startIndex + numQuestions + 1]
 			possibleAnswers = map(lambda answer: re.sub(r'\s', ' ', answer).strip(), possibleAnswers) #strip newlines and tabs
 			parsedQuestionText = parsedDict[self.storyID]['questions'][i] if parsedDict else None
-                        parsedAnswers = parsedDict[self.storyID]['answers'][i] if parsedDict else None
+			parsedAnswers = parsedDict[self.storyID]['answers'][i] if parsedDict else None
 
 			questions.append(Question(questionText.strip(), numSentencesRequired, possibleAnswers, parsedAnswers, parsedQuestionText))
 		self.questions = questions
@@ -187,7 +190,7 @@ class Question:
 		self.text = text.lower()
 		self.numSentencesRequired = numSentencesRequired
 		self.possibleAnswers = map(str.lower, possibleAnswers)
-                self.parsedAnswers = parsedAnswers
+		self.parsedAnswers = parsedAnswers
 
 		# print "---------------------"
 		# print text

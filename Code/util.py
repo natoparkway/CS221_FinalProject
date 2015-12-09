@@ -1,5 +1,6 @@
 import re
 from nltk.stem import SnowballStemmer
+from featureExtractor import getQuestionKeyWords, getSentenceForTesting
 #### STRING UTILS ####
 def is_number(s):
     try:
@@ -104,7 +105,7 @@ def prettyPrint(storyData):
 	print
 
 def testWeightsOnStories(data, weights, featureExtractor):
-	outputFile = open("classifierOuput.txt", "w")
+	outputFile = open("classifierOutput.txt", "w")
 	numCorrect = 0 
 	for datapoint in data:
 		proposedAnswers = datapoint["proposedAnswers"]
@@ -114,7 +115,10 @@ def testWeightsOnStories(data, weights, featureExtractor):
 
 		outputFile.write("-----------------------\n")
 		outputFile.write("Text: " + proposedAnswers[0]['text'] + "\n")
-		outputFile.write('Question: ' + proposedAnswers[0]['question'].text + "\n")
+		question = proposedAnswers[0]['question']
+		queryWord, qSubj, qVerb = getQuestionKeyWords(proposedAnswers[0])
+		outputFile.write('Question: ' + question.text + ": " + qSubj + ", " + qVerb + "\n")
+
 
 		for aIndex, proposed in enumerate(proposedAnswers):
 			score = dotProduct(weights, featureExtractor(proposed))
@@ -125,6 +129,7 @@ def testWeightsOnStories(data, weights, featureExtractor):
 			if aIndex == correctIndex:
 				outputFile.write("****")
 			outputFile.write(chr(ord('a') + aIndex) + ")" + proposed['proposedAnswer'] + "\t" + str(score) + "\n")
+			outputFile.write(getSentenceForTesting(proposed) + '\n')
 
 		numCorrect += correctIndex == bestAnswerIndex
 		if correctIndex == bestAnswerIndex: outputFile.write("^CORRECT^\n")

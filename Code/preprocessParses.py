@@ -14,7 +14,6 @@ def toTags(parsedTokens):
 			"POS": str(token.tag_).strip(),
 			"dependency": str(token.dep_).strip(),
 			"lemma": str(token.lemma_).strip(),
-                        "vector": token.vector.tolist()
 		})
 
 
@@ -50,11 +49,11 @@ def writeParseToFile(dataset, nlpParser):
 		for question in story.questions:
 			parsedQText = nlpParser(unicode(question.casedText))
 			storyParse['questions'].append(toTags(parsedQText))
-                        answerParses = []
-                        for answer in question.casedPossibleAnswers:
-                            parsedAText = nlpParser(unicode(answer))
-                            answerParses.append(toTags(parsedAText))
-                        storyParse['answers'].append(answerParses)
+			answerParses = []
+			for answer in question.casedPossibleAnswers:
+				parsedAText = nlpParser(unicode(answer))
+				answerParses.append(toTags(parsedAText))
+				storyParse['answers'].append(answerParses)
 
 
 		storyTextParse = nlpParser(unicode(story.casedText))
