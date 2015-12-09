@@ -150,8 +150,9 @@ class Story:
 			possibleAnswers = storyInfo[startIndex + 1:startIndex + numQuestions + 1]
 			possibleAnswers = map(lambda answer: re.sub(r'\s', ' ', answer).strip(), possibleAnswers) #strip newlines and tabs
 			parsedQuestionText = parsedDict[self.storyID]['questions'][i] if parsedDict else None
+                        parsedAnswers = parsedDict[self.storyID]['answers'][i] if parsedDict else None
 
-			questions.append(Question(questionText.strip(), numSentencesRequired, possibleAnswers, parsedQuestionText))
+			questions.append(Question(questionText.strip(), numSentencesRequired, possibleAnswers, parsedAnswers, parsedQuestionText))
 		self.questions = questions
 
 		#We keep the text cased until this point so that we can do better NER parsing
@@ -178,7 +179,7 @@ class Story:
 
 
 class Question:
-	def __init__(self, text, numSentencesRequired, possibleAnswers, parsedText):
+	def __init__(self, text, numSentencesRequired, possibleAnswers, parsedAnswers, parsedText):
 		self.casedText = text
 		self.casedPossibleAnswers = possibleAnswers
 
@@ -186,6 +187,7 @@ class Question:
 		self.text = text.lower()
 		self.numSentencesRequired = numSentencesRequired
 		self.possibleAnswers = map(str.lower, possibleAnswers)
+                self.parsedAnswers = parsedAnswers
 
 		# print "---------------------"
 		# print text
