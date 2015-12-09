@@ -1,0 +1,29 @@
+Original Paper - http://research.microsoft.com/en-us/um/redmond/projects/mctest/MCTest_EMNLP2013.pdf
+
+DATA:
+Dataset is restricted to concepts and words that a 7 year old is expected to understand.
+It is fictional - the goal is to build technology that actually understands stores and paragraphs on a deep level.
+Baseline results detailed here: http://research.microsoft.com/en-us/um/redmond/projects/mctest/results.html
+Approximately half of the questions require at least two sentences from the text to answer
+Created using crowdsourcing - edited down for quality
+All the stories in MC160 are manually curated for quality - answers and questions were fixed for grammar and other mistakes
+MC500 was found more difficult by both humans and the baseline system
+
+BASELINE:
+First system matches a bag of words constructed from the question and answer to the text
+Second system does this and uses distance based metrics as well
+
+Another system tried was "Recognizing tetual entailment" (RTE). They coverted each question-answer pair into a statement and then selected the answer whose statement has the highest likelihood of being entailed in the story. This performed WORSE than the baseline.
+
+HISTORY:
+In 1999 we found that a bag of words + heuristics achieves 40% accuracy for picking the setence that best matches a who/what/when etc. query
+They want users to send in the scores they get on the data sets so that others can train on them. They have their scores, showing what the baslines did badly.
+
+OTHER:
+Early reading comprehension tasks found a sentence that best matches a question
+
+Other Tasks/Data:
+TREC (and TAC) Question Answering tracks (e.g., Voorhees and Tice, 1999)
+QA4MRE Task (e.g., Clark et al., 2012) - also question answering
+CBC4Kids Data - 75 stories, 650 questions answered by a sentence in the text
+Story Understanding Resources - http://xenia.media.mit.edu/~mueller/storyund/storyres.html

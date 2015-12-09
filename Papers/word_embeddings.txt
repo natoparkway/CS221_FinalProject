@@ -1,0 +1,4 @@
+Distributed Representations of Words and Phrases and their Compositionality
+http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf
+
+http://arxiv.org/pdf/1402.3722v1.pdf

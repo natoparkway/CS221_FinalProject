@@ -1,0 +1,2 @@
+Freebase QA: Information Extraction or Semantic Parsing?
+https://www.aclweb.org/anthology/W/W14/W14-2416.pdf

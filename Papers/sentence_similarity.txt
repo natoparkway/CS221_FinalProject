@@ -1,0 +1,6 @@
+http://www.cis.drexel.edu/faculty/thu/research-papers/dawak-547.pdf
+The Evaluation of Sentence Similairty Measures
+
+
+http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7083899
+Sentence Similarity Measuring by Vector Space Models
