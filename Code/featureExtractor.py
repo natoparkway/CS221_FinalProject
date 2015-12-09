@@ -89,7 +89,7 @@ def findRelevantSentence(parsedStoryText, qSubj, qVerb, qAnswer):
 		"vector": wordVector
 	}, one per word.
 	"""
-	def score(arr): return arr[0] + arr[1] + 2 * arr[2]
+	def score(arr): return arr[0] + arr[1] + 3 * arr[2]
 	
 	currSentence = []
 	bestScore = -1
