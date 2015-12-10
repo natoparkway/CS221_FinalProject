@@ -1,6 +1,5 @@
 from nltk.stem import SnowballStemmer
 
-
 stopWords = []
 with open("stopwords.txt") as f:
 	stopWords = [word.strip() for word in f]
@@ -23,15 +22,14 @@ def questionAnswerWindowCooccurrence(data):
 
 	Notes: Window size 6 is the best of 5 - 10 
 	"""
-        numSents = data['question'].numSentencesRequired
+	numSents = data['question'].numSentencesRequired
 	windowSize = 6
-        if numSents == 'multiple':
-            windowSize *= 2
+	if numSents == 'multiple':
+		windowSize *= 2
 	score = 0
 	proposedAnswer = data["proposedAnswer"]
 	question = data["question"].text
 	stemmedStoryText = data["processedStoryText"]
-	#stemmedStoryText = " ".join(map(stemmer, stripPunctAndStopWords(data["text"].split())))
 
 	storyTextArray = [word.strip(punctuation) for word in stemmedStoryText.split()]
 	qaWords = map(stemmer, toBagOfWords(question, proposedAnswer))

@@ -21,28 +21,19 @@ def main():
 	print "Appending Data"
 	trainData = Dataset()
 	trainData.appendData("mc160.train", parse=True)
+	#trainData.appendData("mc500.train", parse=True)
 
 	print "Training"
-	classifier = LinearClassifier(numIters=10)
+	classifier = LinearClassifier(numIters=20)
 	data = trainData.getClassifierFormat(preprocessor)
 
-	weights = classifier.train(data, featureExtractor)
+	weights = classifier.trainCorrect(trainData.getEvaluationFormat(preprocessor), featureExtractor)
 	print weights
+	#weights = {'questionAnswerCooccurrence': 0.4000976800976802, 'questionAnswerKeyWordOccurence': 0.10, 'wordVecSumSimilarity': 1.1384311525234372}
 
-
-	if testOnTrainSet:
-		print "Testing (on train set)"
-		print testWeightsOnStories(trainData.getEvaluationFormat(preprocessor), weights, featureExtractor)
-	else:
-		testData = Dataset()
-		if testOn500:
-			print "Prepping Test Data (MC500)"
-			testData.appendData("mc500.dev", parse=True)
-		if testOn160:
-			print "Prepping Test Data (MC160)"
-			testData.appendData("mc160.dev", parse=True)
-		print "Testing"
-		print testWeightsOnStories(testData.getEvaluationFormat(preprocessor), weights, featureExtractor)
+	testData = Dataset()
+	testData.appendData("mc160.dev", parse=True)
+	print testWeightsOnStories(testData.getEvaluationFormat(preprocessor), weights, featureExtractor)
 
 
 if __name__ == "__main__":

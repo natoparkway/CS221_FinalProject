@@ -26,11 +26,18 @@ def betterFeatureExtractor(data):
 	}
 	"""
 
+	def isNegative(parsedQuestion):
+		for wordInfo in parsedQuestion:
+			if wordInfo['dependency'] == 'neg':
+				return True
 
+		return False
+
+	multiplier = -1 if isNegative(data['question'].parsedText) else 1
 	return {
 		"questionAnswerCooccurrence": questionAnswerWindowCooccurrence(data),
 		"questionAnswerKeyWordOccurence": questionAnswerKeyWordOccurence(data),
-		#"wordVecSumSimilarity": wordVecSumSimilarity(data)
+		"wordVecSumSimilarity": wordVecSumSimilarity(data),
 	}
 
 
