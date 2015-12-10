@@ -1,6 +1,7 @@
 from spacy.en import English
 from DataClasses import *
 import json
+import numpy
 
 def toTags(parsedTokens):
 	"""Returns a list of dicts: 
@@ -14,6 +15,7 @@ def toTags(parsedTokens):
 			"POS": str(token.tag_).strip(),
 			"dependency": str(token.dep_).strip(),
 			"lemma": str(token.lemma_).strip(),
+                        "vector": token.vector.tolist()
 		})
 
 
@@ -51,9 +53,9 @@ def writeParseToFile(dataset, nlpParser):
 			storyParse['questions'].append(toTags(parsedQText))
 			answerParses = []
 			for answer in question.casedPossibleAnswers:
-				parsedAText = nlpParser(unicode(answer))
-				answerParses.append(toTags(parsedAText))
-				storyParse['answers'].append(answerParses)
+			    parsedAText = nlpParser(unicode(answer))
+			    answerParses.append(toTags(parsedAText))
+			storyParse['answers'].append(answerParses)
 
 
 		storyTextParse = nlpParser(unicode(story.casedText))

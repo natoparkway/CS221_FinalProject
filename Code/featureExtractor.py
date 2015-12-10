@@ -28,9 +28,9 @@ def betterFeatureExtractor(data):
 
 
 	return {
-		#"questionAnswerCooccurrence": questionAnswerWindowCooccurrence(data),
+		"questionAnswerCooccurrence": questionAnswerWindowCooccurrence(data),
 		"questionAnswerKeyWordOccurence": questionAnswerKeyWordOccurence(data),
-		#"wordVecSumSimilarity": wordVecSumSimilarity(data)
+		"wordVecSumSimilarity": wordVecSumSimilarity(data)
 	}
 
 
