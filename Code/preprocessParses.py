@@ -15,7 +15,7 @@ def toTags(parsedTokens):
 			"POS": str(token.tag_).strip(),
 			"dependency": str(token.dep_).strip(),
 			"lemma": str(token.lemma_).strip(),
-                        "vector": token.vector.tolist()
+			"vector": token.vector.tolist()
 		})
 
 
@@ -40,23 +40,22 @@ def writeParseToFile(dataset, nlpParser):
 	#IDEA. Map storyID to storyInfo, write to file and then read from file 
 	#dict = eval(open(file.txt, r).read())
 	trainData = Dataset()
-	trainData.appendData("../MCTest/" + dataset)
+	trainData.appendData(dataset)
 
 	parsedData = {}
 	for story in trainData.stories:
 		print story.storyID
 		storyParse = {}
 		storyParse['questions'] = []
-                storyParse['answers'] = []
+		storyParse['answers'] = []
 		for question in story.questions:
 			parsedQText = nlpParser(unicode(question.casedText))
 			storyParse['questions'].append(toTags(parsedQText))
 			answerParses = []
 			for answer in question.casedPossibleAnswers:
-			    parsedAText = nlpParser(unicode(answer))
-			    answerParses.append(toTags(parsedAText))
+				parsedAText = nlpParser(unicode(answer))
+				answerParses.append(toTags(parsedAText))
 			storyParse['answers'].append(answerParses)
-
 
 		storyTextParse = nlpParser(unicode(story.casedText))
 		storyParse['storyTextParse'] = toTags(storyTextParse)
