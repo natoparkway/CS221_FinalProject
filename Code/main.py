@@ -14,7 +14,7 @@ def main():
 	featureExtractor = betterFeatureExtractor 
 	preprocessor = removeStopwordsAndStem
 	testOnTrainSet = False 
-	testOn500 = False
+	testOn500 = False 
 	testOn160 = True 
 	##########################################################################
 

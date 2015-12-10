@@ -3,7 +3,7 @@ from util import dotProduct, increment
 
 class LinearClassifier:
 	def __init__(self, numIters):
-		self.numIters = numIters
+		self.numIters = 30 
 
 	#Stochastic gradient descent, using hingeLoss
 	def train(self, dataset, featureExtractor):
@@ -18,7 +18,7 @@ class LinearClassifier:
 
 		weights = collections.defaultdict(int)
 		for i, step in enumerate(xrange(self.numIters)):
-			stepSize = (1 / (i + 1)) ** 2
+			stepSize = 0.05 
 			for example in dataset:
 				input = example[0]
 				output = example[1]

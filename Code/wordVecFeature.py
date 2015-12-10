@@ -4,6 +4,8 @@ import itertools
 from scipy import spatial
 
 
+queryWords = ["who", "what", "when", "why", "how", "which", "where", "can", "was", "did"]
+
 # Returns an array of arrays of parsed tokens.
 # Each array in the original array represents one sentence in the text.
 # It is assumed sentences are separated by one of ".!?"
@@ -24,7 +26,8 @@ def getSentences(parsedText):
 def getWordVecSum(parsedWords):
     sumArray = numpy.zeros_like(parsedWords[0]['vector'])
     for token in parsedWords:
-        sumArray = numpy.add(sumArray, token['vector'])
+        if token['token'] not in queryWords:
+         sumArray = numpy.add(sumArray, token['vector'])
     return sumArray
 
 # Returns the cosine similarity between two vectors
