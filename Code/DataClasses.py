@@ -1,5 +1,6 @@
 import re
 import json
+import numpy
 
 
 def convertToString(input):
@@ -15,6 +16,17 @@ def convertToString(input):
 	else:
 		return input
 
+def convertListsToNumpy(input):
+    if isinstance(input, dict):
+        return {key : convertListsToNumpy(value) for key,value in input.iteritems()}
+    elif isinstance(input, list) and len(input)>0:
+        if isinstance(input[0], float):
+            return numpy.asarray(input)
+        else:
+            return [convertListsToNumpy(elem) for elem in input]
+    else:
+        return input
+
 
 class Dataset:
 	def __init__(self):
@@ -26,6 +38,7 @@ class Dataset:
 		if parse:
 			parsedFile = "parse" + dataset + ".txt"
 			self.parsedStoryInfo = convertToString(json.loads(open(parsedFile).read()))
+                        self.parsedStoryInfo = convertListsToNumpy(self.parsedStoryInfo)
 
 		storyInfoPath = "../MCTest/" + dataset + ".tsv"
 		storyAnswersPath = "../MCTest/" + dataset + ".ans"
@@ -76,6 +89,7 @@ class Dataset:
 						"processedStoryText": processedStory,
 						"question": question,
 						"proposedAnswer": answer,
+                                                "proposedAnswerIndex": aIndex,
 						"isCorrect": isCorrect,
 						"remainingAnswers": question.possibleAnswers[:aIndex] + question.possibleAnswers[aIndex + 1:]
 					}, isCorrect))
