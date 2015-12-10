@@ -1,0 +1,1680 @@
+-----------------------
+Text: it was jessie bear's birthday. she was having a party.  she asked her two best friends to come to the party.  she made a big cake, and hung up some balloons.  soon her friend lion came over. then her friend tiger came over. lion and tiger brought presents with them.  jessie hugged her friends. she asked them if they would like to have cake.   yes! said lion. yes yes! said tiger. jessie cut the cake, and they all ate it together. then jessie opened her presents. she got a new jump rope and a fun game.  she asked lion and tiger to play the game with her.  the friends played and played. they all had a good time. soon it was time for the party to be over.  lion and tiger hugged jessie and said goodbye to her.  thanks for a great birthday! jessie bear told her two best friends.
+Question: who was having a birthday?: birthday, having
+****a)jessie bear	8
+it was jessie bear 's birthday :jessie
+b)no one	2
+it was jessie bear 's birthday :one
+c)lion	6
+ soon her friend lion came over :lion
+d)tiger	6
+then her friend tiger came over :tiger
+^CORRECT^
+
+
+-----------------------
+Text: it was jessie bear's birthday. she was having a party.  she asked her two best friends to come to the party.  she made a big cake, and hung up some balloons.  soon her friend lion came over. then her friend tiger came over. lion and tiger brought presents with them.  jessie hugged her friends. she asked them if they would like to have cake.   yes! said lion. yes yes! said tiger. jessie cut the cake, and they all ate it together. then jessie opened her presents. she got a new jump rope and a fun game.  she asked lion and tiger to play the game with her.  the friends played and played. they all had a good time. soon it was time for the party to be over.  lion and tiger hugged jessie and said goodbye to her.  thanks for a great birthday! jessie bear told her two best friends.
+Question: who didn't come to the party?: party, come
+a)lion	-8
+ soon her friend lion came over :lion
+b)tiger	-8
+then her friend tiger came over :tiger
+****c)snake	-4
+ she asked her two best friends to come to the party :snake
+d)jessie bear	-6
+it was jessie bear 's birthday :jessie
+^CORRECT^
+
+
+-----------------------
+Text: it was jessie bear's birthday. she was having a party.  she asked her two best friends to come to the party.  she made a big cake, and hung up some balloons.  soon her friend lion came over. then her friend tiger came over. lion and tiger brought presents with them.  jessie hugged her friends. she asked them if they would like to have cake.   yes! said lion. yes yes! said tiger. jessie cut the cake, and they all ate it together. then jessie opened her presents. she got a new jump rope and a fun game.  she asked lion and tiger to play the game with her.  the friends played and played. they all had a good time. soon it was time for the party to be over.  lion and tiger hugged jessie and said goodbye to her.  thanks for a great birthday! jessie bear told her two best friends.
+Question: how did jessie get ready for the party?: jessie, get
+a)made cake and juice.	8
+ she made a big cake , and hung up some balloons :cake
+****b)made cake and hung balloons.	8
+ she made a big cake , and hung up some balloons :cake
+c)made juice and cookies.	4
+she got a new jump rope and a fun game :juice
+d)made juice and hung balloons.	4
+she got a new jump rope and a fun game :juice
+^INCORRECT^
+
+
+-----------------------
+Text: it was jessie bear's birthday. she was having a party.  she asked her two best friends to come to the party.  she made a big cake, and hung up some balloons.  soon her friend lion came over. then her friend tiger came over. lion and tiger brought presents with them.  jessie hugged her friends. she asked them if they would like to have cake.   yes! said lion. yes yes! said tiger. jessie cut the cake, and they all ate it together. then jessie opened her presents. she got a new jump rope and a fun game.  she asked lion and tiger to play the game with her.  the friends played and played. they all had a good time. soon it was time for the party to be over.  lion and tiger hugged jessie and said goodbye to her.  thanks for a great birthday! jessie bear told her two best friends.
+Question: how many friends came to jessie's party?: jessie, came
+a)one	4
+ she asked her two best friends to come to the party :one
+****b)two	10
+ she asked her two best friends to come to the party :two
+c)six	4
+ she asked her two best friends to come to the party :six
+d)four	4
+ she asked her two best friends to come to the party :four
+^CORRECT^
+
+
+-----------------------
+Text: sally had a very exciting summer vacation. she went to summer camp for the first time. she made friends with a girl named tina. they shared a bunk bed in their cabin. sally's favorite activity was walking in the woods because she enjoyed nature. tina liked arts and crafts. together, they made some art using leaves they found in the woods. even after she fell in the water, sally still enjoyed canoeing. she was sad when the camp was over, but promised to keep in touch with her new friend.  sally went to the beach with her family in the summer as well. she loves the beach. sally collected shells and mailed some to her friend, tina, so she could make some arts and crafts with them. sally liked fishing with her brothers, cooking on the grill with her dad, and swimming in the ocean with her mother.  the summer was fun, but sally was very excited to go back to school. she missed her friends and teachers. she was excited to tell them about her summer vacation.
+Question: who went to the beach with sally?: sally, went
+a)her sisters	4
+she went to summer camp for the first time :sisters
+b)tina	8
+she made friends with a girl named tina :tina
+****c)her brothers, mother, and father	8
+sally liked fishing with her brothers , cooking on the grill with her dad , and swimming in the ocean with her mother :brothers
+d)herself	4
+she went to summer camp for the first time :herself
+^INCORRECT^
+
+
+-----------------------
+Text: sally had a very exciting summer vacation. she went to summer camp for the first time. she made friends with a girl named tina. they shared a bunk bed in their cabin. sally's favorite activity was walking in the woods because she enjoyed nature. tina liked arts and crafts. together, they made some art using leaves they found in the woods. even after she fell in the water, sally still enjoyed canoeing. she was sad when the camp was over, but promised to keep in touch with her new friend.  sally went to the beach with her family in the summer as well. she loves the beach. sally collected shells and mailed some to her friend, tina, so she could make some arts and crafts with them. sally liked fishing with her brothers, cooking on the grill with her dad, and swimming in the ocean with her mother.  the summer was fun, but sally was very excited to go back to school. she missed her friends and teachers. she was excited to tell them about her summer vacation.
+Question: what did sally promise to do?: sally, promise
+a)learn to ride a bike.	4
+she was sad when the camp was over , but promised to keep in touch with her new friend :bike
+b)go to a baseball game.	4
+she was sad when the camp was over , but promised to keep in touch with her new friend :baseball
+c)go back to the beach.	8
+ sally went to the beach with her family in the summer as well :beach
+****d)keep in touch with her new friend, tina.	8
+she made friends with a girl named tina :tina
+^INCORRECT^
+
+
+-----------------------
+Text: sally had a very exciting summer vacation. she went to summer camp for the first time. she made friends with a girl named tina. they shared a bunk bed in their cabin. sally's favorite activity was walking in the woods because she enjoyed nature. tina liked arts and crafts. together, they made some art using leaves they found in the woods. even after she fell in the water, sally still enjoyed canoeing. she was sad when the camp was over, but promised to keep in touch with her new friend.  sally went to the beach with her family in the summer as well. she loves the beach. sally collected shells and mailed some to her friend, tina, so she could make some arts and crafts with them. sally liked fishing with her brothers, cooking on the grill with her dad, and swimming in the ocean with her mother.  the summer was fun, but sally was very excited to go back to school. she missed her friends and teachers. she was excited to tell them about her summer vacation.
+Question: why does sally like walking in the woods?: sally, walking
+a)she likes to climb trees.	8
+sally liked fishing with her brothers , cooking on the grill with her dad , and swimming in the ocean with her mother :likes
+b)she likes to play hide and go seek.	8
+sally liked fishing with her brothers , cooking on the grill with her dad , and swimming in the ocean with her mother :likes
+c)she likes to swim.	8
+sally liked fishing with her brothers , cooking on the grill with her dad , and swimming in the ocean with her mother :likes
+****d)she likes nature.	8
+sally liked fishing with her brothers , cooking on the grill with her dad , and swimming in the ocean with her mother :likes
+^INCORRECT^
+
+
+-----------------------
+Text: sally had a very exciting summer vacation. she went to summer camp for the first time. she made friends with a girl named tina. they shared a bunk bed in their cabin. sally's favorite activity was walking in the woods because she enjoyed nature. tina liked arts and crafts. together, they made some art using leaves they found in the woods. even after she fell in the water, sally still enjoyed canoeing. she was sad when the camp was over, but promised to keep in touch with her new friend.  sally went to the beach with her family in the summer as well. she loves the beach. sally collected shells and mailed some to her friend, tina, so she could make some arts and crafts with them. sally liked fishing with her brothers, cooking on the grill with her dad, and swimming in the ocean with her mother.  the summer was fun, but sally was very excited to go back to school. she missed her friends and teachers. she was excited to tell them about her summer vacation.
+Question: what did sally do this summer?: sally, do
+****a)she went to summer camp and the beach.	8
+she went to summer camp for the first time :went
+b)she went to paris.	8
+she went to summer camp for the first time :went
+c)she went to a baseball game.	8
+she went to summer camp for the first time :went
+d)she went to summer school.	8
+she went to summer camp for the first time :went
+^CORRECT^
+
+
+-----------------------
+Text: todd lived in a town outside the city . unlike the city the town was peaceful and quiet and full of trees, flowers and animals.  one day his dad came in from work and said "come on, son, i'm going to take you to the city." todd was very exited so he put on his shoes and ran to the car.  when they got to the city todd was very surprised there were so many cars and people, everyone seemed to be in a hurry. there were no trees, no flowers, and no animals. todd was so happy to get back home.  when his mom asked him about his trip to the city todd said,"there's no place like home."
+Question: where did todd visit?: todd, visit
+****a)the city	8
+todd lived in a town outside the city :city
+b)his mom	8
+ when his mom asked him about his trip to the city todd said,"there 's no place like home :mom
+c)the town	8
+todd lived in a town outside the city :town
+d)the animals	6
+unlike the city the town was peaceful and quiet and full of trees , flowers and animals :animals
+^CORRECT^
+
+
+-----------------------
+Text: todd lived in a town outside the city . unlike the city the town was peaceful and quiet and full of trees, flowers and animals.  one day his dad came in from work and said "come on, son, i'm going to take you to the city." todd was very exited so he put on his shoes and ran to the car.  when they got to the city todd was very surprised there were so many cars and people, everyone seemed to be in a hurry. there were no trees, no flowers, and no animals. todd was so happy to get back home.  when his mom asked him about his trip to the city todd said,"there's no place like home."
+Question: what did todd say when he got home from the city?: todd, say
+a)there were so many trees and flowers.	6
+unlike the city the town was peaceful and quiet and full of trees , flowers and animals :trees
+b)there were so many people in cars.	8
+ when they got to the city todd was very surprised there were so many cars and people , everyone seemed to be in a hurry :people
+****c)there's no place like home.	8
+ when his mom asked him about his trip to the city todd said,"there 's no place like home :place
+d)there were so many animals.	6
+unlike the city the town was peaceful and quiet and full of trees , flowers and animals :animals
+^INCORRECT^
+
+
+-----------------------
+Text: todd lived in a town outside the city . unlike the city the town was peaceful and quiet and full of trees, flowers and animals.  one day his dad came in from work and said "come on, son, i'm going to take you to the city." todd was very exited so he put on his shoes and ran to the car.  when they got to the city todd was very surprised there were so many cars and people, everyone seemed to be in a hurry. there were no trees, no flowers, and no animals. todd was so happy to get back home.  when his mom asked him about his trip to the city todd said,"there's no place like home."
+Question: where does todd live?: todd, live
+a)the city	10
+todd lived in a town outside the city :city
+b)with his mom	8
+ when his mom asked him about his trip to the city todd said,"there 's no place like home :mom
+c)with his dad	6
+ one day his dad came in from work and said " come on , son , i 'm going to take you to the city :dad
+****d)in a town.	10
+todd lived in a town outside the city :town
+^INCORRECT^
+
+
+-----------------------
+Text: todd lived in a town outside the city . unlike the city the town was peaceful and quiet and full of trees, flowers and animals.  one day his dad came in from work and said "come on, son, i'm going to take you to the city." todd was very exited so he put on his shoes and ran to the car.  when they got to the city todd was very surprised there were so many cars and people, everyone seemed to be in a hurry. there were no trees, no flowers, and no animals. todd was so happy to get back home.  when his mom asked him about his trip to the city todd said,"there's no place like home."
+Question: what did todd see when he got to the city?: todd, see
+a)lots of animals	2
+todd lived in a town outside the city :lots
+b)his mom	8
+ when his mom asked him about his trip to the city todd said,"there 's no place like home :mom
+c)lots of trees and flowers	2
+todd lived in a town outside the city :lots
+****d)lots of people and cars	2
+todd lived in a town outside the city :lots
+^INCORRECT^
+
+
+-----------------------
+Text: greta ran to the corner with her older brother tony.  he had money for the ice cream truck in his pocket and she was very happy. the ice cream truck had been parked at the curb waiting for children for a very long time.  the ice cream truck driver thought that no more children were coming to get ice cream so he started pulling away from the curb when they got to the corner. they yelled.  they screamed, "stop! stop!" and jumped up and down on the side walk trying to get him to see them. the driver of the truck saw them, waved at them and smiled, pulled back to the curb and opened his truck up so that they could see everything that he had for sale.  they were so excited. they saw some new treats. tony wanted to try something new. he got an ice cream sundae with chocolate ice cream and nuts. he almost got a snow cone. greta looked at everything that the ice cream truck had. she saw candy, ice cream cones, snow cones, and everything else. it all looked so good. but after looking at everything, she wanted to get an ice cream sandwich. she got the ice cream sandwich. she bit into it and smiled. it tasted so good. she felt so happy. her brother, tony, was happy too. he bit into his ice cream cone sundae and grinned.  they walked home with their ice cream and told their mom about how close they came to not getting their ice cream at all. their mom was happy that the truck had stopped for them. she said that they were very lucky to have gotten to the curb before the ice cream truck left.
+Question: what did the driver of the ice cream truck do when greta and tony got to the corner?: greta, do
+****a)he started pulling away from the curb.	8
+ the ice cream truck driver thought that no more children were coming to get ice cream so he started pulling away from the curb when they got to the corner :started
+b)he played the truck's jingle.	2
+greta ran to the corner with her older brother tony :played
+c)he stayed parked at the curb.	2
+greta ran to the corner with her older brother tony :stayed
+d)he almost got a snow cone.	8
+ the ice cream truck driver thought that no more children were coming to get ice cream so he started pulling away from the curb when they got to the corner :got
+^CORRECT^
+
+
+-----------------------
+Text: greta ran to the corner with her older brother tony.  he had money for the ice cream truck in his pocket and she was very happy. the ice cream truck had been parked at the curb waiting for children for a very long time.  the ice cream truck driver thought that no more children were coming to get ice cream so he started pulling away from the curb when they got to the corner. they yelled.  they screamed, "stop! stop!" and jumped up and down on the side walk trying to get him to see them. the driver of the truck saw them, waved at them and smiled, pulled back to the curb and opened his truck up so that they could see everything that he had for sale.  they were so excited. they saw some new treats. tony wanted to try something new. he got an ice cream sundae with chocolate ice cream and nuts. he almost got a snow cone. greta looked at everything that the ice cream truck had. she saw candy, ice cream cones, snow cones, and everything else. it all looked so good. but after looking at everything, she wanted to get an ice cream sandwich. she got the ice cream sandwich. she bit into it and smiled. it tasted so good. she felt so happy. her brother, tony, was happy too. he bit into his ice cream cone sundae and grinned.  they walked home with their ice cream and told their mom about how close they came to not getting their ice cream at all. their mom was happy that the truck had stopped for them. she said that they were very lucky to have gotten to the curb before the ice cream truck left.
+Question: what did the children do when they saw the ice cream truck driver pull away from the curb?: driver, do
+a)they ran out into the street after the iced cream truck.	6
+greta ran to the corner with her older brother tony :ran
+****b)they screamed, "stop! stop!".	6
+ they screamed , " stop :screamed
+c)they stood on the corner and cried.	2
+ the ice cream truck driver thought that no more children were coming to get ice cream so he started pulling away from the curb when they got to the corner :stood
+d)they ate ice cream.	2
+ the ice cream truck driver thought that no more children were coming to get ice cream so he started pulling away from the curb when they got to the corner :ate
+^INCORRECT^
+
+
+-----------------------
+Text: greta ran to the corner with her older brother tony.  he had money for the ice cream truck in his pocket and she was very happy. the ice cream truck had been parked at the curb waiting for children for a very long time.  the ice cream truck driver thought that no more children were coming to get ice cream so he started pulling away from the curb when they got to the corner. they yelled.  they screamed, "stop! stop!" and jumped up and down on the side walk trying to get him to see them. the driver of the truck saw them, waved at them and smiled, pulled back to the curb and opened his truck up so that they could see everything that he had for sale.  they were so excited. they saw some new treats. tony wanted to try something new. he got an ice cream sundae with chocolate ice cream and nuts. he almost got a snow cone. greta looked at everything that the ice cream truck had. she saw candy, ice cream cones, snow cones, and everything else. it all looked so good. but after looking at everything, she wanted to get an ice cream sandwich. she got the ice cream sandwich. she bit into it and smiled. it tasted so good. she felt so happy. her brother, tony, was happy too. he bit into his ice cream cone sundae and grinned.  they walked home with their ice cream and told their mom about how close they came to not getting their ice cream at all. their mom was happy that the truck had stopped for them. she said that they were very lucky to have gotten to the curb before the ice cream truck left.
+Question: what did tony and greta get from the iced cream truck?: tony, get
+a)tony got a snow cone. greta got an ice cream sundae.	8
+greta ran to the corner with her older brother tony :tony
+b)tony got a snow cone. greta got an iced cream cone with chocolate iced cream and nuts.	8
+greta ran to the corner with her older brother tony :tony
+****c)tony got an ice cream sundae with chocolate ice cream and nuts.	8
+greta ran to the corner with her older brother tony :tony
+d)greta and tony ice cream cones.	8
+greta ran to the corner with her older brother tony :greta
+^INCORRECT^
+
+
+-----------------------
+Text: greta ran to the corner with her older brother tony.  he had money for the ice cream truck in his pocket and she was very happy. the ice cream truck had been parked at the curb waiting for children for a very long time.  the ice cream truck driver thought that no more children were coming to get ice cream so he started pulling away from the curb when they got to the corner. they yelled.  they screamed, "stop! stop!" and jumped up and down on the side walk trying to get him to see them. the driver of the truck saw them, waved at them and smiled, pulled back to the curb and opened his truck up so that they could see everything that he had for sale.  they were so excited. they saw some new treats. tony wanted to try something new. he got an ice cream sundae with chocolate ice cream and nuts. he almost got a snow cone. greta looked at everything that the ice cream truck had. she saw candy, ice cream cones, snow cones, and everything else. it all looked so good. but after looking at everything, she wanted to get an ice cream sandwich. she got the ice cream sandwich. she bit into it and smiled. it tasted so good. she felt so happy. her brother, tony, was happy too. he bit into his ice cream cone sundae and grinned.  they walked home with their ice cream and told their mom about how close they came to not getting their ice cream at all. their mom was happy that the truck had stopped for them. she said that they were very lucky to have gotten to the curb before the ice cream truck left.
+Question: what did greta and tony do after they got their ice cream?: greta, do
+a)they walked to a friend's house and talked to his mother about what happened.	6
+" and jumped up and down on the side walk trying to get him to see them :walked
+****b)they bit into it.	8
+she bit into it and smiled :bit
+c)they got in the truck.	8
+ the ice cream truck driver thought that no more children were coming to get ice cream so he started pulling away from the curb when they got to the corner :got
+d)they walked home and went outside in their back yard to play.	6
+" and jumped up and down on the side walk trying to get him to see them :walked
+^CORRECT^
+
+
+-----------------------
+Text: my parents, kelly and kelley, said that it was that time of year to take a family vacation.  we've been to big ride parks that have hotels with large pools.  this year my parents wanted to do something different.  they wanted to take us all to elk river castle.  after lots of planning we hit the road for our trip.  my brother kelsey and i enjoyed the long car ride there.    once we arrive, the castle looked much bigger than we had imagined.  there was so much to see and so much to do.  there was a swimming pool, movie theater and an elevator to take us from floor to floor.  what a magical place!  i was so excited because we had the whole place to our family!    we spent our vacation playing around the huge castle and finding small mysterious places. there was even a tiny room in the back of one of the closets.  my brother, kelsey, and i played hide and go seek for hours, watched movies and swam until the sun went down.  it was sad when our vacation finally came to an end but we made some amazing memories. we'll never forget our trip to elk river castle!
+Question: what was my brother's name?: name, NONE
+a)kelly	6
+my parents , kelly and kelley , said that it was that time of year to take a family vacation :kelly
+****b)kelsey	6
+ my brother kelsey and i enjoyed the long car ride there :kelsey
+c)caden	0
+my parents , kelly and kelley , said that it was that time of year to take a family vacation :caden
+d)colby	0
+my parents , kelly and kelley , said that it was that time of year to take a family vacation :colby
+^INCORRECT^
+
+
+-----------------------
+Text: my parents, kelly and kelley, said that it was that time of year to take a family vacation.  we've been to big ride parks that have hotels with large pools.  this year my parents wanted to do something different.  they wanted to take us all to elk river castle.  after lots of planning we hit the road for our trip.  my brother kelsey and i enjoyed the long car ride there.    once we arrive, the castle looked much bigger than we had imagined.  there was so much to see and so much to do.  there was a swimming pool, movie theater and an elevator to take us from floor to floor.  what a magical place!  i was so excited because we had the whole place to our family!    we spent our vacation playing around the huge castle and finding small mysterious places. there was even a tiny room in the back of one of the closets.  my brother, kelsey, and i played hide and go seek for hours, watched movies and swam until the sun went down.  it was sad when our vacation finally came to an end but we made some amazing memories. we'll never forget our trip to elk river castle!
+Question: where did we go?: we, go
+a)hood river castle	2
+ we 've been to big ride parks that have hotels with large pools :hood
+****b)elk river castle	8
+we 'll never forget our trip to elk river castle :elk
+c)white fish castle	2
+ we 've been to big ride parks that have hotels with large pools :white
+d)white salmon castle	2
+ we 've been to big ride parks that have hotels with large pools :white
+^CORRECT^
+
+
+-----------------------
+Text: my parents, kelly and kelley, said that it was that time of year to take a family vacation.  we've been to big ride parks that have hotels with large pools.  this year my parents wanted to do something different.  they wanted to take us all to elk river castle.  after lots of planning we hit the road for our trip.  my brother kelsey and i enjoyed the long car ride there.    once we arrive, the castle looked much bigger than we had imagined.  there was so much to see and so much to do.  there was a swimming pool, movie theater and an elevator to take us from floor to floor.  what a magical place!  i was so excited because we had the whole place to our family!    we spent our vacation playing around the huge castle and finding small mysterious places. there was even a tiny room in the back of one of the closets.  my brother, kelsey, and i played hide and go seek for hours, watched movies and swam until the sun went down.  it was sad when our vacation finally came to an end but we made some amazing memories. we'll never forget our trip to elk river castle!
+Question: what did the castle have?: castle, have
+a)a ball room	4
+ once we arrive , the castle looked much bigger than we had imagined :ball
+****b)a movie theater	6
+ there was a swimming pool , movie theater and an elevator to take us from floor to floor :movie
+c)a gym	4
+ once we arrive , the castle looked much bigger than we had imagined :gym
+d)a hot tub	4
+ once we arrive , the castle looked much bigger than we had imagined :tub
+^CORRECT^
+
+
+-----------------------
+Text: my parents, kelly and kelley, said that it was that time of year to take a family vacation.  we've been to big ride parks that have hotels with large pools.  this year my parents wanted to do something different.  they wanted to take us all to elk river castle.  after lots of planning we hit the road for our trip.  my brother kelsey and i enjoyed the long car ride there.    once we arrive, the castle looked much bigger than we had imagined.  there was so much to see and so much to do.  there was a swimming pool, movie theater and an elevator to take us from floor to floor.  what a magical place!  i was so excited because we had the whole place to our family!    we spent our vacation playing around the huge castle and finding small mysterious places. there was even a tiny room in the back of one of the closets.  my brother, kelsey, and i played hide and go seek for hours, watched movies and swam until the sun went down.  it was sad when our vacation finally came to an end but we made some amazing memories. we'll never forget our trip to elk river castle!
+Question: what did we do at the castle?: we, do
+a)played ball	2
+ we 've been to big ride parks that have hotels with large pools :ball
+b)fished	2
+ we 've been to big ride parks that have hotels with large pools :fished
+****c)swam in the swimming pool	6
+ my brother , kelsey , and i played hide and go seek for hours , watched movies and swam until the sun went down :swam
+d)ran in the woods	2
+ we 've been to big ride parks that have hotels with large pools :ran
+^CORRECT^
+
+
+-----------------------
+Text: once upon a time there a little girl named ana. ana was a smart girl. everyone in ana's school knew and liked her very much. she had a big dream of becoming spelling bee winner. ana studied very hard to be the best she could be at spelling. ana's best friend would help her study every day after school. by the time the spelling bee arrived ana and her best friend were sure she would win. there were ten students in the spelling bee. this made ana very nervous, but when she looked out and saw her dad cheering her on she knew she could do it. the spelling bee had five rounds and ana made it through them all. she was now in the finals. during the final round james, the boy she was in the finals with, was given a really hard word and he spelled it wrong. all ana had to do was spell this last word and she would be the winner. ana stepped to the microphone, thought really hard and spelled the word. she waited and finally her teacher said "that is correct". ana had won the spelling bee. ana was so happy. she won a trophy. ana also won a big yellow ribbon. the whole school was also happy, and everyone clapped for her. the whole school went outside. they had a picnic to celebrate ana winning.
+Question: what made ana very nervous?: ana, made
+****a)the other ten students	6
+there were ten students in the spelling bee :students
+b)her best friend	8
+ana 's best friend would help her study every day after school :friend
+c)the bright lights	4
+this made ana very nervous , but when she looked out and saw her dad cheering her on she knew she could do it :lights
+d)the big stage	4
+this made ana very nervous , but when she looked out and saw her dad cheering her on she knew she could do it :stage
+^INCORRECT^
+
+
+-----------------------
+Text: once upon a time there a little girl named ana. ana was a smart girl. everyone in ana's school knew and liked her very much. she had a big dream of becoming spelling bee winner. ana studied very hard to be the best she could be at spelling. ana's best friend would help her study every day after school. by the time the spelling bee arrived ana and her best friend were sure she would win. there were ten students in the spelling bee. this made ana very nervous, but when she looked out and saw her dad cheering her on she knew she could do it. the spelling bee had five rounds and ana made it through them all. she was now in the finals. during the final round james, the boy she was in the finals with, was given a really hard word and he spelled it wrong. all ana had to do was spell this last word and she would be the winner. ana stepped to the microphone, thought really hard and spelled the word. she waited and finally her teacher said "that is correct". ana had won the spelling bee. ana was so happy. she won a trophy. ana also won a big yellow ribbon. the whole school was also happy, and everyone clapped for her. the whole school went outside. they had a picnic to celebrate ana winning.
+Question: where did the school have the picnic?: school, have
+a)the gym	2
+everyone in ana 's school knew and liked her very much :gym
+b)ana's house	8
+everyone in ana 's school knew and liked her very much :ana
+****c)outside	8
+the whole school went outside :outside
+d)ana's classroom	8
+everyone in ana 's school knew and liked her very much :ana
+^INCORRECT^
+
+
+-----------------------
+Text: once upon a time there a little girl named ana. ana was a smart girl. everyone in ana's school knew and liked her very much. she had a big dream of becoming spelling bee winner. ana studied very hard to be the best she could be at spelling. ana's best friend would help her study every day after school. by the time the spelling bee arrived ana and her best friend were sure she would win. there were ten students in the spelling bee. this made ana very nervous, but when she looked out and saw her dad cheering her on she knew she could do it. the spelling bee had five rounds and ana made it through them all. she was now in the finals. during the final round james, the boy she was in the finals with, was given a really hard word and he spelled it wrong. all ana had to do was spell this last word and she would be the winner. ana stepped to the microphone, thought really hard and spelled the word. she waited and finally her teacher said "that is correct". ana had won the spelling bee. ana was so happy. she won a trophy. ana also won a big yellow ribbon. the whole school was also happy, and everyone clapped for her. the whole school went outside. they had a picnic to celebrate ana winning.
+Question: what was ana's big dream?: dream, NONE
+a)becoming a ballerina	2
+she had a big dream of becoming spelling bee winner :ballerina
+b)becoming a famous singer	2
+she had a big dream of becoming spelling bee winner :singer
+c)becoming class president	2
+she had a big dream of becoming spelling bee winner :class
+****d)becoming spelling bee winner	8
+she had a big dream of becoming spelling bee winner :bee
+^CORRECT^
+
+
+-----------------------
+Text: once upon a time there a little girl named ana. ana was a smart girl. everyone in ana's school knew and liked her very much. she had a big dream of becoming spelling bee winner. ana studied very hard to be the best she could be at spelling. ana's best friend would help her study every day after school. by the time the spelling bee arrived ana and her best friend were sure she would win. there were ten students in the spelling bee. this made ana very nervous, but when she looked out and saw her dad cheering her on she knew she could do it. the spelling bee had five rounds and ana made it through them all. she was now in the finals. during the final round james, the boy she was in the finals with, was given a really hard word and he spelled it wrong. all ana had to do was spell this last word and she would be the winner. ana stepped to the microphone, thought really hard and spelled the word. she waited and finally her teacher said "that is correct". ana had won the spelling bee. ana was so happy. she won a trophy. ana also won a big yellow ribbon. the whole school was also happy, and everyone clapped for her. the whole school went outside. they had a picnic to celebrate ana winning.
+Question: who helped ana study everyday?: ana, helped
+a)her dad	8
+this made ana very nervous , but when she looked out and saw her dad cheering her on she knew she could do it :dad
+****b)her best friend	10
+ana 's best friend would help her study every day after school :friend
+c)her mom	4
+ana 's best friend would help her study every day after school :mom
+d)her sister	4
+ana 's best friend would help her study every day after school :sister
+^CORRECT^
+
+
+-----------------------
+Text: roger was a grasshopper. he loved to hop. he hopped everywhere by himself. one day when he was hopping around he bumped into a frog sitting on a log. the frog told him his name was gilbert. gilbert told roger that it had been a long time since he bumped into anybody. roger told him that since both grasshoppers and frogs like to jump they would make great friends. the next day they were hopping through a field and they saw something very strange.  in a pond they saw a spider floating on a lily pad. the spider was very sad because he did not have any friends. roger and gilbert asked him why he didn't have any friends. the spider told them that everybody would scream and run away when they saw him. roger and gilbert told him that he didn't look scary to them and that he could come along with them if he wanted. so sam the spider said yes, and the three of them began a life time friendship full of adventures.
+Question: what did roger like to do?: roger, do
+a)bump.	8
+one day when he was hopping around he bumped into a frog sitting on a log :bump
+****b)hop.	8
+he loved to hop :hop
+c)swim.	4
+the spider was very sad because he did not have any friends :swim
+d)float.	6
+ in a pond they saw a spider floating on a lily pad :float
+^INCORRECT^
+
+
+-----------------------
+Text: roger was a grasshopper. he loved to hop. he hopped everywhere by himself. one day when he was hopping around he bumped into a frog sitting on a log. the frog told him his name was gilbert. gilbert told roger that it had been a long time since he bumped into anybody. roger told him that since both grasshoppers and frogs like to jump they would make great friends. the next day they were hopping through a field and they saw something very strange.  in a pond they saw a spider floating on a lily pad. the spider was very sad because he did not have any friends. roger and gilbert asked him why he didn't have any friends. the spider told them that everybody would scream and run away when they saw him. roger and gilbert told him that he didn't look scary to them and that he could come along with them if he wanted. so sam the spider said yes, and the three of them began a life time friendship full of adventures.
+Question: what was the spider sitting on in the pond?: spider, sitting
+a)branch	2
+one day when he was hopping around he bumped into a frog sitting on a log :branch
+****b)lily pad	8
+ in a pond they saw a spider floating on a lily pad :lily
+c)land	2
+one day when he was hopping around he bumped into a frog sitting on a log :land
+d)log	8
+one day when he was hopping around he bumped into a frog sitting on a log :log
+^CORRECT^
+
+
+-----------------------
+Text: roger was a grasshopper. he loved to hop. he hopped everywhere by himself. one day when he was hopping around he bumped into a frog sitting on a log. the frog told him his name was gilbert. gilbert told roger that it had been a long time since he bumped into anybody. roger told him that since both grasshoppers and frogs like to jump they would make great friends. the next day they were hopping through a field and they saw something very strange.  in a pond they saw a spider floating on a lily pad. the spider was very sad because he did not have any friends. roger and gilbert asked him why he didn't have any friends. the spider told them that everybody would scream and run away when they saw him. roger and gilbert told him that he didn't look scary to them and that he could come along with them if he wanted. so sam the spider said yes, and the three of them began a life time friendship full of adventures.
+Question: what character is not in the story?: character, is
+a)spider	-8
+the spider was very sad because he did not have any friends :spider
+****b)lady bug	-2
+roger was a grasshopper :lady
+c)grasshopper	-8
+roger was a grasshopper :grasshopper
+d)frog	-8
+one day when he was hopping around he bumped into a frog sitting on a log :frog
+^CORRECT^
+
+
+-----------------------
+Text: roger was a grasshopper. he loved to hop. he hopped everywhere by himself. one day when he was hopping around he bumped into a frog sitting on a log. the frog told him his name was gilbert. gilbert told roger that it had been a long time since he bumped into anybody. roger told him that since both grasshoppers and frogs like to jump they would make great friends. the next day they were hopping through a field and they saw something very strange.  in a pond they saw a spider floating on a lily pad. the spider was very sad because he did not have any friends. roger and gilbert asked him why he didn't have any friends. the spider told them that everybody would scream and run away when they saw him. roger and gilbert told him that he didn't look scary to them and that he could come along with them if he wanted. so sam the spider said yes, and the three of them began a life time friendship full of adventures.
+Question: what was the spider's name?: name, NONE
+a)roger	6
+roger was a grasshopper :roger
+b)sarah	2
+the frog told him his name was gilbert :sarah
+c)gilbert	8
+the frog told him his name was gilbert :gilbert
+****d)sam	6
+so sam the spider said yes , and the three of them began a life time friendship full of adventures :sam
+^INCORRECT^
+
+
+-----------------------
+Text: the cute red ball rolled over to the blue ball and said hello. the blue ball was scared and went to cry to the green ball. the green ball laughed at the blue ball. then the green ball told the orange ball that blue ball was stupid. most felt this was not good to do and so they punished the green ball by taking away all his air.  from that day on everyone saw the air-less green ball and knew that they could not do or say any bad things. this is how the trouble started. the purple ball used the fear of everyone to become the leader that they all feared. the purple ball was mean to everyone. until one day the red ball spoke up and got all the other colored balls together and they took the air from the purple ball and put it in the green ball. sadly, the green ball had been without air for too long and was dead.
+Question: what color ball was the third brought up in the story?: third, brought
+****a)green	6
+the blue ball was scared and went to cry to the green ball :green
+b)blue	6
+the cute red ball rolled over to the blue ball and said hello :blue
+c)red	6
+the cute red ball rolled over to the blue ball and said hello :red
+d)purple	6
+the purple ball used the fear of everyone to become the leader that they all feared :purple
+^CORRECT^
+
+
+-----------------------
+Text: the cute red ball rolled over to the blue ball and said hello. the blue ball was scared and went to cry to the green ball. the green ball laughed at the blue ball. then the green ball told the orange ball that blue ball was stupid. most felt this was not good to do and so they punished the green ball by taking away all his air.  from that day on everyone saw the air-less green ball and knew that they could not do or say any bad things. this is how the trouble started. the purple ball used the fear of everyone to become the leader that they all feared. the purple ball was mean to everyone. until one day the red ball spoke up and got all the other colored balls together and they took the air from the purple ball and put it in the green ball. sadly, the green ball had been without air for too long and was dead.
+Question: which color ball became the leader?: ball, became
+a)green	8
+the blue ball was scared and went to cry to the green ball :green
+b)blue	8
+the cute red ball rolled over to the blue ball and said hello :blue
+c)red	8
+the cute red ball rolled over to the blue ball and said hello :red
+****d)purple	10
+the purple ball used the fear of everyone to become the leader that they all feared :purple
+^CORRECT^
+
+
+-----------------------
+Text: the cute red ball rolled over to the blue ball and said hello. the blue ball was scared and went to cry to the green ball. the green ball laughed at the blue ball. then the green ball told the orange ball that blue ball was stupid. most felt this was not good to do and so they punished the green ball by taking away all his air.  from that day on everyone saw the air-less green ball and knew that they could not do or say any bad things. this is how the trouble started. the purple ball used the fear of everyone to become the leader that they all feared. the purple ball was mean to everyone. until one day the red ball spoke up and got all the other colored balls together and they took the air from the purple ball and put it in the green ball. sadly, the green ball had been without air for too long and was dead.
+Question: what color of ball scared the blue ball?: color, scared
+a)purple	6
+the purple ball used the fear of everyone to become the leader that they all feared :purple
+****b)red	6
+the cute red ball rolled over to the blue ball and said hello :red
+c)orange	6
+then the green ball told the orange ball that blue ball was stupid :orange
+d)green	6
+the blue ball was scared and went to cry to the green ball :green
+^INCORRECT^
+
+
+-----------------------
+Text: the cute red ball rolled over to the blue ball and said hello. the blue ball was scared and went to cry to the green ball. the green ball laughed at the blue ball. then the green ball told the orange ball that blue ball was stupid. most felt this was not good to do and so they punished the green ball by taking away all his air.  from that day on everyone saw the air-less green ball and knew that they could not do or say any bad things. this is how the trouble started. the purple ball used the fear of everyone to become the leader that they all feared. the purple ball was mean to everyone. until one day the red ball spoke up and got all the other colored balls together and they took the air from the purple ball and put it in the green ball. sadly, the green ball had been without air for too long and was dead.
+Question: at they end of the story, what was the state of the green ball.: they, end
+a)cute	6
+the cute red ball rolled over to the blue ball and said hello :cute
+****b)dead	6
+sadly , the green ball had been without air for too long and was dead :dead
+c)fear	8
+the purple ball used the fear of everyone to become the leader that they all feared :fear
+d)taking	8
+most felt this was not good to do and so they punished the green ball by taking away all his air :taking
+^INCORRECT^
+
+
+-----------------------
+Text: sara wanted to play on a baseball team. she had never tried to swing a bat and hit a baseball before. her dad gave her a bat and together they went to the park to practice. sara wondered if she could hit a ball. she wasn't sure if she would be any good. she really wanted to play on a team and wear a real uniform. she couldn't wait to get to the park and test out her bat. when sara and her dad reached the park, sara grabbed the bat and stood a few steps away from her dad. sara waited as her dad pitched the ball to her. her heart was beating fast. she missed the first few pitches. she felt like quitting but kept trying. soon she was hitting the ball very far. she was very happy and she couldn't wait to sign up for a real team. her dad was very proud of her for not giving up.
+Question: why was sara practicing?: sara, practicing
+a)she wanted to show off	8
+sara wanted to play on a baseball team :wanted
+b)she didn't want to do her homework	8
+sara wanted to play on a baseball team :want
+****c)she wanted to play on a team	8
+sara wanted to play on a baseball team :wanted
+d)she was bored	8
+sara wondered if she could hit a ball :she
+^INCORRECT^
+
+
+-----------------------
+Text: sara wanted to play on a baseball team. she had never tried to swing a bat and hit a baseball before. her dad gave her a bat and together they went to the park to practice. sara wondered if she could hit a ball. she wasn't sure if she would be any good. she really wanted to play on a team and wear a real uniform. she couldn't wait to get to the park and test out her bat. when sara and her dad reached the park, sara grabbed the bat and stood a few steps away from her dad. sara waited as her dad pitched the ball to her. her heart was beating fast. she missed the first few pitches. she felt like quitting but kept trying. soon she was hitting the ball very far. she was very happy and she couldn't wait to sign up for a real team. her dad was very proud of her for not giving up.
+Question: who pitched the ball to sara?: ball, pitched
+a)her mom	4
+sara waited as her dad pitched the ball to her :mom
+b)her sister	4
+sara waited as her dad pitched the ball to her :sister
+****c)her dad	10
+sara waited as her dad pitched the ball to her :dad
+d)her brother	4
+sara waited as her dad pitched the ball to her :brother
+^CORRECT^
+
+
+-----------------------
+Text: sara wanted to play on a baseball team. she had never tried to swing a bat and hit a baseball before. her dad gave her a bat and together they went to the park to practice. sara wondered if she could hit a ball. she wasn't sure if she would be any good. she really wanted to play on a team and wear a real uniform. she couldn't wait to get to the park and test out her bat. when sara and her dad reached the park, sara grabbed the bat and stood a few steps away from her dad. sara waited as her dad pitched the ball to her. her heart was beating fast. she missed the first few pitches. she felt like quitting but kept trying. soon she was hitting the ball very far. she was very happy and she couldn't wait to sign up for a real team. her dad was very proud of her for not giving up.
+Question: why was sara's dad proud of her?: dad, NONE
+a)she didn't get dirty	6
+she could n't wait to get to the park and test out her bat :get
+b)she didn't break the bat	2
+her dad gave her a bat and together they went to the park to practice :break
+****c)she didn't quit	6
+she felt like quitting but kept trying :quit
+d)she was better than her dad	6
+she had never tried to swing a bat and hit a baseball before :she
+^INCORRECT^
+
+
+-----------------------
+Text: sara wanted to play on a baseball team. she had never tried to swing a bat and hit a baseball before. her dad gave her a bat and together they went to the park to practice. sara wondered if she could hit a ball. she wasn't sure if she would be any good. she really wanted to play on a team and wear a real uniform. she couldn't wait to get to the park and test out her bat. when sara and her dad reached the park, sara grabbed the bat and stood a few steps away from her dad. sara waited as her dad pitched the ball to her. her heart was beating fast. she missed the first few pitches. she felt like quitting but kept trying. soon she was hitting the ball very far. she was very happy and she couldn't wait to sign up for a real team. her dad was very proud of her for not giving up.
+Question: where did sara go to practice hitting the ball?: sara, go
+a)a stadium	2
+sara wanted to play on a baseball team :stadium
+b)her yard	2
+sara wanted to play on a baseball team :yard
+****c)the park	8
+her dad gave her a bat and together they went to the park to practice :park
+d)her bedroom	2
+sara wanted to play on a baseball team :bedroom
+^CORRECT^
+
+
+-----------------------
+Text: peter was a very sad puppy.  he had been inside of the pet store for a very long time.  in fact, he had been there for three months!  peter had seen many other puppies find a person; he began to wonder why he could not get one.  he thought that maybe his fur was not pretty enough or maybe his bark was not loud enough.  he tried and tried to please every person who came to the store, but they all picked smaller puppies.  however, one day all of this changed.  sammie came into the store looking for a golden puppy.  she wanted a puppy she could snuggle with.  it so happened that peter was very sad and tired that day. sammie came to hold him.  peter wanted to show off his bark, but he was too tired.  he fell right to sleep.  sammie loved him at once and loved holding him in her arms.  sammie took peter home that day, and they made lots of fun memories.
+Question: what did peter want to do when sammie came?: peter, want
+a)he wanted to show off his fur	10
+ she wanted a puppy she could snuggle with :wanted
+b)he wanted to be beautiful	10
+ she wanted a puppy she could snuggle with :wanted
+c)he wanted to snuggle with her	10
+ she wanted a puppy she could snuggle with :wanted
+****d)he wanted to show off his bark	10
+ she wanted a puppy she could snuggle with :wanted
+^INCORRECT^
+
+
+-----------------------
+Text: peter was a very sad puppy.  he had been inside of the pet store for a very long time.  in fact, he had been there for three months!  peter had seen many other puppies find a person; he began to wonder why he could not get one.  he thought that maybe his fur was not pretty enough or maybe his bark was not loud enough.  he tried and tried to please every person who came to the store, but they all picked smaller puppies.  however, one day all of this changed.  sammie came into the store looking for a golden puppy.  she wanted a puppy she could snuggle with.  it so happened that peter was very sad and tired that day. sammie came to hold him.  peter wanted to show off his bark, but he was too tired.  he fell right to sleep.  sammie loved him at once and loved holding him in her arms.  sammie took peter home that day, and they made lots of fun memories.
+Question: where was peter?: peter, NONE
+a)sad and tired	8
+peter was a very sad puppy :sad
+****b)at the pet store	8
+ he had been inside of the pet store for a very long time :store
+c)home	8
+ sammie took peter home that day , and they made lots of fun memories :home
+d)at the park practicing his bark	2
+peter was a very sad puppy :park
+^INCORRECT^
+
+
+-----------------------
+Text: peter was a very sad puppy.  he had been inside of the pet store for a very long time.  in fact, he had been there for three months!  peter had seen many other puppies find a person; he began to wonder why he could not get one.  he thought that maybe his fur was not pretty enough or maybe his bark was not loud enough.  he tried and tried to please every person who came to the store, but they all picked smaller puppies.  however, one day all of this changed.  sammie came into the store looking for a golden puppy.  she wanted a puppy she could snuggle with.  it so happened that peter was very sad and tired that day. sammie came to hold him.  peter wanted to show off his bark, but he was too tired.  he fell right to sleep.  sammie loved him at once and loved holding him in her arms.  sammie took peter home that day, and they made lots of fun memories.
+Question: what did peter actually do when sammie came?: peter, do
+a)peter showed off his fur	8
+peter was a very sad puppy :peter
+b)peter showed off his bark	8
+peter was a very sad puppy :peter
+****c)peter fell asleep	8
+peter was a very sad puppy :peter
+d)peter wondered if he would be a good enough puppy	8
+peter was a very sad puppy :peter
+^INCORRECT^
+
+
+-----------------------
+Text: peter was a very sad puppy.  he had been inside of the pet store for a very long time.  in fact, he had been there for three months!  peter had seen many other puppies find a person; he began to wonder why he could not get one.  he thought that maybe his fur was not pretty enough or maybe his bark was not loud enough.  he tried and tried to please every person who came to the store, but they all picked smaller puppies.  however, one day all of this changed.  sammie came into the store looking for a golden puppy.  she wanted a puppy she could snuggle with.  it so happened that peter was very sad and tired that day. sammie came to hold him.  peter wanted to show off his bark, but he was too tired.  he fell right to sleep.  sammie loved him at once and loved holding him in her arms.  sammie took peter home that day, and they made lots of fun memories.
+Question: what kind of puppy did sammie want?: sammie, want
+a)a golden puppy that was small	10
+ she wanted a puppy she could snuggle with :a
+b)a golden puppy with shiny fur	10
+ she wanted a puppy she could snuggle with :puppy
+c)a puppy with a loud bark she could snuggle with	10
+ she wanted a puppy she could snuggle with :snuggle
+****d)a golden puppy she could snuggle with	10
+ she wanted a puppy she could snuggle with :snuggle
+^INCORRECT^
+
+
+-----------------------
+Text: luna the hawk wanted some socks. it was the middle of winter and sitting on tree branches made her feet very cold. luna hoped that her friends could help her find some socks. she flew to the old maple tree where olive the owl lived.  "olive, may i please borrow a pair of your socks?" she asked.  olive the owl looked surprised. "luna, i have no use for socks because my legs and toes have thick feathers. go visit one of the animals that walk on four legs. they might have extra socks you could borrow."  luna flew across the field and landed next to the icy creek. rose the raccoon was teaching her six babies how to wash their paws. the water was very cold, but the babies were having fun.  "rose, my bare legs and bare toes are so cold, may i please borrow a pair of your socks?" begged luna.  rose laughed hard. "silly luna, i do not have socks. look at my legs and feet. they are covered with thick, warm fur. i'm sorry i cannot help you. go visit the humans. sometimes i tip over their garbage cans at night when i am looking for food. once i saw a pair of socks."  luna was very afraid of humans. her grandmother and mother had warned her about them. she was told that some humans are mean and hurt hawks. her feet were so cold that it was difficult to grip tree branches. she became brave. she flew to the farmhouse on the big hill. when she landed on the roof, she could not believe her eyes. she saw socks! in late autumn, henrietta the human had put laundry outside to dry and she had forgotten to bring in one tiny pair of socks. the socks were hanging on the clothesline by two wooden pins. luna used her powerful beak to break the pins. she put on the socks and then flew back to her home in the huge tree. when she landed, her feet were warm and dry. luna was very happy.
+Question: why did olive the owl not have any socks?: owl, olive
+a)she had given her socks to another friend.	-4
+she flew to the old maple tree where olive the owl lived :given
+b)all of her socks were in the dirty laundry.	-6
+it was the middle of winter and sitting on tree branches made her feet very cold :were
+****c)she has thick feathers on her legs and toes.	-6
+" luna , i have no use for socks because my legs and toes have thick feathers :has
+d)she wore ski boots instead of socks.	-4
+she flew to the old maple tree where olive the owl lived :wore
+^INCORRECT^
+
+
+-----------------------
+Text: luna the hawk wanted some socks. it was the middle of winter and sitting on tree branches made her feet very cold. luna hoped that her friends could help her find some socks. she flew to the old maple tree where olive the owl lived.  "olive, may i please borrow a pair of your socks?" she asked.  olive the owl looked surprised. "luna, i have no use for socks because my legs and toes have thick feathers. go visit one of the animals that walk on four legs. they might have extra socks you could borrow."  luna flew across the field and landed next to the icy creek. rose the raccoon was teaching her six babies how to wash their paws. the water was very cold, but the babies were having fun.  "rose, my bare legs and bare toes are so cold, may i please borrow a pair of your socks?" begged luna.  rose laughed hard. "silly luna, i do not have socks. look at my legs and feet. they are covered with thick, warm fur. i'm sorry i cannot help you. go visit the humans. sometimes i tip over their garbage cans at night when i am looking for food. once i saw a pair of socks."  luna was very afraid of humans. her grandmother and mother had warned her about them. she was told that some humans are mean and hurt hawks. her feet were so cold that it was difficult to grip tree branches. she became brave. she flew to the farmhouse on the big hill. when she landed on the roof, she could not believe her eyes. she saw socks! in late autumn, henrietta the human had put laundry outside to dry and she had forgotten to bring in one tiny pair of socks. the socks were hanging on the clothesline by two wooden pins. luna used her powerful beak to break the pins. she put on the socks and then flew back to her home in the huge tree. when she landed, her feet were warm and dry. luna was very happy.
+Question: why was luna afraid of humans?: luna, NONE
+****a)her grandmother and mother had told stories about mean humans hurting hawks.	8
+"  luna was very afraid of humans :humans
+b)humans were large and scary-looking.	8
+"  luna was very afraid of humans :humans
+c)humans put garbage in the hawks' nests.	8
+"  luna was very afraid of humans :humans
+d)humans stole all of the hawks' food.	8
+"  luna was very afraid of humans :humans
+^CORRECT^
+
+
+-----------------------
+Text: luna the hawk wanted some socks. it was the middle of winter and sitting on tree branches made her feet very cold. luna hoped that her friends could help her find some socks. she flew to the old maple tree where olive the owl lived.  "olive, may i please borrow a pair of your socks?" she asked.  olive the owl looked surprised. "luna, i have no use for socks because my legs and toes have thick feathers. go visit one of the animals that walk on four legs. they might have extra socks you could borrow."  luna flew across the field and landed next to the icy creek. rose the raccoon was teaching her six babies how to wash their paws. the water was very cold, but the babies were having fun.  "rose, my bare legs and bare toes are so cold, may i please borrow a pair of your socks?" begged luna.  rose laughed hard. "silly luna, i do not have socks. look at my legs and feet. they are covered with thick, warm fur. i'm sorry i cannot help you. go visit the humans. sometimes i tip over their garbage cans at night when i am looking for food. once i saw a pair of socks."  luna was very afraid of humans. her grandmother and mother had warned her about them. she was told that some humans are mean and hurt hawks. her feet were so cold that it was difficult to grip tree branches. she became brave. she flew to the farmhouse on the big hill. when she landed on the roof, she could not believe her eyes. she saw socks! in late autumn, henrietta the human had put laundry outside to dry and she had forgotten to bring in one tiny pair of socks. the socks were hanging on the clothesline by two wooden pins. luna used her powerful beak to break the pins. she put on the socks and then flew back to her home in the huge tree. when she landed, her feet were warm and dry. luna was very happy.
+Question: which animal did luna not visit?: luna, visit
+a)olive the owl	-8
+she flew to the old maple tree where olive the owl lived :olive
+b)rose the raccoon	-6
+rose the raccoon was teaching her six babies how to wash their paws :raccoon
+****c)opal the otter	-2
+luna the hawk wanted some socks :opal
+d)henrietta the human	-8
+in late autumn , henrietta the human had put laundry outside to dry and she had forgotten to bring in one tiny pair of socks :henrietta
+^CORRECT^
+
+
+-----------------------
+Text: luna the hawk wanted some socks. it was the middle of winter and sitting on tree branches made her feet very cold. luna hoped that her friends could help her find some socks. she flew to the old maple tree where olive the owl lived.  "olive, may i please borrow a pair of your socks?" she asked.  olive the owl looked surprised. "luna, i have no use for socks because my legs and toes have thick feathers. go visit one of the animals that walk on four legs. they might have extra socks you could borrow."  luna flew across the field and landed next to the icy creek. rose the raccoon was teaching her six babies how to wash their paws. the water was very cold, but the babies were having fun.  "rose, my bare legs and bare toes are so cold, may i please borrow a pair of your socks?" begged luna.  rose laughed hard. "silly luna, i do not have socks. look at my legs and feet. they are covered with thick, warm fur. i'm sorry i cannot help you. go visit the humans. sometimes i tip over their garbage cans at night when i am looking for food. once i saw a pair of socks."  luna was very afraid of humans. her grandmother and mother had warned her about them. she was told that some humans are mean and hurt hawks. her feet were so cold that it was difficult to grip tree branches. she became brave. she flew to the farmhouse on the big hill. when she landed on the roof, she could not believe her eyes. she saw socks! in late autumn, henrietta the human had put laundry outside to dry and she had forgotten to bring in one tiny pair of socks. the socks were hanging on the clothesline by two wooden pins. luna used her powerful beak to break the pins. she put on the socks and then flew back to her home in the huge tree. when she landed, her feet were warm and dry. luna was very happy.
+Question: how could the baby raccoons play in the icy creek without hurting their paws?: raccoons, play
+a)because their mother made sure they had warm mittens to keep their paws dry.	6
+it was the middle of winter and sitting on tree branches made her feet very cold :made
+b)because their mother taught them how to play in the water without getting cold.	6
+her grandmother and mother had warned her about them :mother
+c)because their legs and feet are tough from tipping over garbage cans.	6
+" luna , i have no use for socks because my legs and toes have thick feathers :legs
+****d)because their legs and feet have a thick covering of fur that keeps them warm.	6
+" luna , i have no use for socks because my legs and toes have thick feathers :have
+^INCORRECT^
+
+
+-----------------------
+Text: once upon a time a young boy and young girl set out on a trip to the beach. they packed a few towels, an umbrella, a few beach chairs and a lunch cooler. they drove to the crowded beach parking lot and spent almost an hour trying to find a parking spot. once they found a spot they parked and began walking to the beach area. they found a nice spot with a good view of the water and set up their belongings. once they sat down they began to enjoy a nice lunch on the beach. they watched the boats go by and people playing in the water. it was a wonderful day and one they would always remember. once they arrived home they suddenly found out that they both had a pretty good sunburn. they both said that next time they would use sun screen.
+Question: was it a good day for the couple, and what did they find out when they got home?: they, got
+****a)it was a good day, and they found that they were sunburned	8
+it was a wonderful day and one they would always remember :were
+b)it was not a good day, and they found they were sunburned.	8
+once they arrived home they suddenly found out that they both had a pretty good sunburn :sunburned
+c)it was a good day, and they found they were late getting home	2
+they packed a few towels , an umbrella , a few beach chairs and a lunch cooler :getting
+d)it was not a good day, and they found that they got a parking ticket	2
+they packed a few towels , an umbrella , a few beach chairs and a lunch cooler :got
+^CORRECT^
+
+
+-----------------------
+Text: once upon a time a young boy and young girl set out on a trip to the beach. they packed a few towels, an umbrella, a few beach chairs and a lunch cooler. they drove to the crowded beach parking lot and spent almost an hour trying to find a parking spot. once they found a spot they parked and began walking to the beach area. they found a nice spot with a good view of the water and set up their belongings. once they sat down they began to enjoy a nice lunch on the beach. they watched the boats go by and people playing in the water. it was a wonderful day and one they would always remember. once they arrived home they suddenly found out that they both had a pretty good sunburn. they both said that next time they would use sun screen.
+Question: where were the couple going and how did they get their?: they, going
+a)the beach and by bike	8
+they packed a few towels , an umbrella , a few beach chairs and a lunch cooler :beach
+b)the park and by bike	8
+once they found a spot they parked and began walking to the beach area :park
+c)the store and by car	4
+they watched the boats go by and people playing in the water :store
+****d)the beach and by car	8
+they packed a few towels , an umbrella , a few beach chairs and a lunch cooler :beach
+^INCORRECT^
+
+
+-----------------------
+Text: once upon a time a young boy and young girl set out on a trip to the beach. they packed a few towels, an umbrella, a few beach chairs and a lunch cooler. they drove to the crowded beach parking lot and spent almost an hour trying to find a parking spot. once they found a spot they parked and began walking to the beach area. they found a nice spot with a good view of the water and set up their belongings. once they sat down they began to enjoy a nice lunch on the beach. they watched the boats go by and people playing in the water. it was a wonderful day and one they would always remember. once they arrived home they suddenly found out that they both had a pretty good sunburn. they both said that next time they would use sun screen.
+Question: besides boats what did the couple watch?: watch, NONE
+a)dolphins	2
+they watched the boats go by and people playing in the water :dolphins
+b)people making sand castles	8
+they watched the boats go by and people playing in the water :people
+****c)people playing in the water	8
+they watched the boats go by and people playing in the water :people
+d)children playing in the sand	2
+they watched the boats go by and people playing in the water :children
+^INCORRECT^
+
+
+-----------------------
+Text: once upon a time a young boy and young girl set out on a trip to the beach. they packed a few towels, an umbrella, a few beach chairs and a lunch cooler. they drove to the crowded beach parking lot and spent almost an hour trying to find a parking spot. once they found a spot they parked and began walking to the beach area. they found a nice spot with a good view of the water and set up their belongings. once they sat down they began to enjoy a nice lunch on the beach. they watched the boats go by and people playing in the water. it was a wonderful day and one they would always remember. once they arrived home they suddenly found out that they both had a pretty good sunburn. they both said that next time they would use sun screen.
+Question: it took the young couple how long to find a parking spot?: it, took
+a)almost a half hour	2
+it was a wonderful day and one they would always remember :half
+b)only a short time	6
+once upon a time a young boy and young girl set out on a trip to the beach :time
+****c)almost an hour	6
+they drove to the crowded beach parking lot and spent almost an hour trying to find a parking spot :hour
+d)over an hour	6
+they drove to the crowded beach parking lot and spent almost an hour trying to find a parking spot :hour
+^INCORRECT^
+
+
+-----------------------
+Text: three little kids lived in a great big house with a great big cat and many places for a great big cat to hide.  their great big cat was named cowboy.  and cowboy was not a very nice cat.  cowboy liked to bite and chew and scratch a great many things.  when cowboy was happy, which was not very often, cowboy liked to bite in to a blanket or soft toy and carry it around in his mouth.  when cowboy was hungry he liked to bite bright red tomatoes and suck out all the juice and seeds.  and when cowboy was feeling mean he liked to hide. cowboy would hide, curled up tight in a ball under a blanket or behind a corner and wait for one of the little kids to pass by.  when they did pass by cowboy would jump at their feet and try to bite and scratch them.  he did not know that what he was doing was not very nice.  cowboy was only a cat.  a great big cat that did not know any better.
+Question: what was the cat's name?: name, NONE
+a)tony	2
+ their great big cat was named cowboy :tony
+****b)cowboy	8
+ their great big cat was named cowboy :cowboy
+c)cat	8
+ their great big cat was named cowboy :cat
+d)chowder	2
+ their great big cat was named cowboy :chowder
+^CORRECT^
+
+
+-----------------------
+Text: three little kids lived in a great big house with a great big cat and many places for a great big cat to hide.  their great big cat was named cowboy.  and cowboy was not a very nice cat.  cowboy liked to bite and chew and scratch a great many things.  when cowboy was happy, which was not very often, cowboy liked to bite in to a blanket or soft toy and carry it around in his mouth.  when cowboy was hungry he liked to bite bright red tomatoes and suck out all the juice and seeds.  and when cowboy was feeling mean he liked to hide. cowboy would hide, curled up tight in a ball under a blanket or behind a corner and wait for one of the little kids to pass by.  when they did pass by cowboy would jump at their feet and try to bite and scratch them.  he did not know that what he was doing was not very nice.  cowboy was only a cat.  a great big cat that did not know any better.
+Question: what did cowboy like to eat when he was hungry?: he, cowboy
+a)cowboy liked to eat cat food.	10
+ when cowboy was hungry he liked to bite bright red tomatoes and suck out all the juice and seeds :cowboy
+b)cowboy liked to eat toys.	10
+ when cowboy was hungry he liked to bite bright red tomatoes and suck out all the juice and seeds :cowboy
+c)cowboy liked to eat blankets.	10
+ when cowboy was hungry he liked to bite bright red tomatoes and suck out all the juice and seeds :cowboy
+****d)cowboy liked to eat tomatoes.	10
+ when cowboy was hungry he liked to bite bright red tomatoes and suck out all the juice and seeds :cowboy
+^INCORRECT^
+
+
+-----------------------
+Text: three little kids lived in a great big house with a great big cat and many places for a great big cat to hide.  their great big cat was named cowboy.  and cowboy was not a very nice cat.  cowboy liked to bite and chew and scratch a great many things.  when cowboy was happy, which was not very often, cowboy liked to bite in to a blanket or soft toy and carry it around in his mouth.  when cowboy was hungry he liked to bite bright red tomatoes and suck out all the juice and seeds.  and when cowboy was feeling mean he liked to hide. cowboy would hide, curled up tight in a ball under a blanket or behind a corner and wait for one of the little kids to pass by.  when they did pass by cowboy would jump at their feet and try to bite and scratch them.  he did not know that what he was doing was not very nice.  cowboy was only a cat.  a great big cat that did not know any better.
+Question: when cowboy felt mean he liked to...: cowboy, felt
+a)run and hide.	4
+ and when cowboy was feeling mean he liked to hide :run
+b)chew on toys.	8
+ when cowboy was happy , which was not very often , cowboy liked to bite in to a blanket or soft toy and carry it around in his mouth :toys
+c)bite the blankets.	8
+ when cowboy was happy , which was not very often , cowboy liked to bite in to a blanket or soft toy and carry it around in his mouth :blankets
+****d)hide and jump.	10
+ and when cowboy was feeling mean he liked to hide :hide
+^CORRECT^
+
+
+-----------------------
+Text: three little kids lived in a great big house with a great big cat and many places for a great big cat to hide.  their great big cat was named cowboy.  and cowboy was not a very nice cat.  cowboy liked to bite and chew and scratch a great many things.  when cowboy was happy, which was not very often, cowboy liked to bite in to a blanket or soft toy and carry it around in his mouth.  when cowboy was hungry he liked to bite bright red tomatoes and suck out all the juice and seeds.  and when cowboy was feeling mean he liked to hide. cowboy would hide, curled up tight in a ball under a blanket or behind a corner and wait for one of the little kids to pass by.  when they did pass by cowboy would jump at their feet and try to bite and scratch them.  he did not know that what he was doing was not very nice.  cowboy was only a cat.  a great big cat that did not know any better.
+Question: cowboy was a...: cowboy, NONE
+a)a tiny little cat.	8
+ their great big cat was named cowboy :cat
+b)a normal size cat.	2
+ their great big cat was named cowboy :size
+****c)great big cat.	8
+ their great big cat was named cowboy :cat
+d)a great big dog.	2
+ their great big cat was named cowboy :dog
+^INCORRECT^
+
+
+-----------------------
+Text: on the first day of school, mrs. law asked all the students to write a story telling her what they did over the summer. she told the students that they were going to read them in front of the class. this was going to help everyone get to know more about each other.  when all the students were done writing their stories, anna raised her hand to read hers first. mrs. law smiled at anna's excitement to share her story with the class. she told all the students to sit down and listen to anna.  anna started reading her story. all the other students quickly paid attention, as her story was telling about her vacation to a park with lots of rides. anna told them that she rode a huge ride called, "superman," which was her favorite. after anna finished reading her story, all the students clapped and said that they wished that they could hear more. anna told them to tell their mommies and daddies to take them to visit the rides next summer.
+Question: why did the students have to read their stories to the class?: students, have
+a)to get to know who had the best summer	8
+on the first day of school , mrs. law asked all the students to write a story telling her what they did over the summer :summer
+b)to get to know mrs. law	8
+on the first day of school , mrs. law asked all the students to write a story telling her what they did over the summer :law
+****c)to help them get to know more about each other	6
+this was going to help everyone get to know more about each other :help
+d)to get to know who had the best mommy and daddy	6
+anna told them to tell their mommies and daddies to take them to visit the rides next summer :mommy
+^INCORRECT^
+
+
+-----------------------
+Text: on the first day of school, mrs. law asked all the students to write a story telling her what they did over the summer. she told the students that they were going to read them in front of the class. this was going to help everyone get to know more about each other.  when all the students were done writing their stories, anna raised her hand to read hers first. mrs. law smiled at anna's excitement to share her story with the class. she told all the students to sit down and listen to anna.  anna started reading her story. all the other students quickly paid attention, as her story was telling about her vacation to a park with lots of rides. anna told them that she rode a huge ride called, "superman," which was her favorite. after anna finished reading her story, all the students clapped and said that they wished that they could hear more. anna told them to tell their mommies and daddies to take them to visit the rides next summer.
+Question: what did the students have to write about?: students, have
+a)the first day of school	8
+on the first day of school , mrs. law asked all the students to write a story telling her what they did over the summer :day
+b)mrs. law	8
+on the first day of school , mrs. law asked all the students to write a story telling her what they did over the summer :law
+c)anna's summer vacation	8
+ when all the students were done writing their stories , anna raised her hand to read hers first :anna
+****d)what they did over the summer	8
+on the first day of school , mrs. law asked all the students to write a story telling her what they did over the summer :what
+^INCORRECT^
+
+
+-----------------------
+Text: on the first day of school, mrs. law asked all the students to write a story telling her what they did over the summer. she told the students that they were going to read them in front of the class. this was going to help everyone get to know more about each other.  when all the students were done writing their stories, anna raised her hand to read hers first. mrs. law smiled at anna's excitement to share her story with the class. she told all the students to sit down and listen to anna.  anna started reading her story. all the other students quickly paid attention, as her story was telling about her vacation to a park with lots of rides. anna told them that she rode a huge ride called, "superman," which was her favorite. after anna finished reading her story, all the students clapped and said that they wished that they could hear more. anna told them to tell their mommies and daddies to take them to visit the rides next summer.
+Question: why did mrs. law smile at anna?: law, NONE
+a)because anna told the class a joke	8
+mrs. law smiled at anna 's excitement to share her story with the class :anna
+****b)because she raised her hand to read her story first	6
+ when all the students were done writing their stories , anna raised her hand to read hers first :raised
+c)because anna laughed	8
+mrs. law smiled at anna 's excitement to share her story with the class :anna
+d)because anna rode a huge ride	8
+mrs. law smiled at anna 's excitement to share her story with the class :anna
+^INCORRECT^
+
+
+-----------------------
+Text: on the first day of school, mrs. law asked all the students to write a story telling her what they did over the summer. she told the students that they were going to read them in front of the class. this was going to help everyone get to know more about each other.  when all the students were done writing their stories, anna raised her hand to read hers first. mrs. law smiled at anna's excitement to share her story with the class. she told all the students to sit down and listen to anna.  anna started reading her story. all the other students quickly paid attention, as her story was telling about her vacation to a park with lots of rides. anna told them that she rode a huge ride called, "superman," which was her favorite. after anna finished reading her story, all the students clapped and said that they wished that they could hear more. anna told them to tell their mommies and daddies to take them to visit the rides next summer.
+Question: what was the huge ride called that anna told the class about?: anna, told
+a)batman	4
+she told the students that they were going to read them in front of the class :batman
+****b)superman	10
+anna told them that she rode a huge ride called , " superman , " which was her favorite :superman
+c)there wasn't one	4
+she told the students that they were going to read them in front of the class :there
+d)jolly green giant	4
+she told the students that they were going to read them in front of the class :jolly
+^CORRECT^
+
+
+-----------------------
+Text: this is a story about a bear and a wolf. the bear met the wolf one day in the woods. the bear said to the wolf, would you like to go to the river with me? the wolf said yes, he would like to go to the river. when the bear and the wolf got to the river they found that a beaver had built a bridge to the other side of the river. the bear and the wolf crossed the bridge that was built by the beaver and found that they were now in a part of the woods they had never seen before. a little worried that they may get lost in this part of the woods they had never seen before the bear and the wolf turned around. they went back over the bridge and were happy to be back in a part of the woods they knew so well. the beaver thanked both the bear and the wolf for trying out his new bridge and then started to build yet another bridge close to the first bridge. he was a very busy beaver.
+Question: which animal built a bridge?: animal, built
+****a)the beaver	8
+when the bear and the wolf got to the river they found that a beaver had built a bridge to the other side of the river :beaver
+b)the bear	8
+when the bear and the wolf got to the river they found that a beaver had built a bridge to the other side of the river :bear
+c)the dog	2
+when the bear and the wolf got to the river they found that a beaver had built a bridge to the other side of the river :dog
+d)the wolf	8
+when the bear and the wolf got to the river they found that a beaver had built a bridge to the other side of the river :wolf
+^CORRECT^
+
+
+-----------------------
+Text: this is a story about a bear and a wolf. the bear met the wolf one day in the woods. the bear said to the wolf, would you like to go to the river with me? the wolf said yes, he would like to go to the river. when the bear and the wolf got to the river they found that a beaver had built a bridge to the other side of the river. the bear and the wolf crossed the bridge that was built by the beaver and found that they were now in a part of the woods they had never seen before. a little worried that they may get lost in this part of the woods they had never seen before the bear and the wolf turned around. they went back over the bridge and were happy to be back in a part of the woods they knew so well. the beaver thanked both the bear and the wolf for trying out his new bridge and then started to build yet another bridge close to the first bridge. he was a very busy beaver.
+Question: what did the bear and wolf cross, and why did they turn back?: they, turn
+a)a bridge, and they got hungry.	10
+a little worried that they may get lost in this part of the woods they had never seen before the bear and the wolf turned around :got
+b)a lake, and they did not want to get lost.	10
+a little worried that they may get lost in this part of the woods they had never seen before the bear and the wolf turned around :lost
+c)a field and they did not want to get lost.	10
+a little worried that they may get lost in this part of the woods they had never seen before the bear and the wolf turned around :lost
+****d)a bridge, and they did not want to get lost.	10
+a little worried that they may get lost in this part of the woods they had never seen before the bear and the wolf turned around :lost
+^INCORRECT^
+
+
+-----------------------
+Text: this is a story about a bear and a wolf. the bear met the wolf one day in the woods. the bear said to the wolf, would you like to go to the river with me? the wolf said yes, he would like to go to the river. when the bear and the wolf got to the river they found that a beaver had built a bridge to the other side of the river. the bear and the wolf crossed the bridge that was built by the beaver and found that they were now in a part of the woods they had never seen before. a little worried that they may get lost in this part of the woods they had never seen before the bear and the wolf turned around. they went back over the bridge and were happy to be back in a part of the woods they knew so well. the beaver thanked both the bear and the wolf for trying out his new bridge and then started to build yet another bridge close to the first bridge. he was a very busy beaver.
+Question: what did the beaver build and why did he thank the bear and wolf?: he, thank
+a)a bridge, and for helping him to build the bridge.	8
+the beaver thanked both the bear and the wolf for trying out his new bridge and then started to build yet another bridge close to the first bridge :build
+b)a house, and for trying out the bridge.	2
+the wolf said yes , he would like to go to the river :house
+****c)a bridge, and for trying out the bridge.	8
+the beaver thanked both the bear and the wolf for trying out his new bridge and then started to build yet another bridge close to the first bridge :bridge
+d)a bridge, and for bring him food	8
+the beaver thanked both the bear and the wolf for trying out his new bridge and then started to build yet another bridge close to the first bridge :bridge
+^INCORRECT^
+
+
+-----------------------
+Text: this is a story about a bear and a wolf. the bear met the wolf one day in the woods. the bear said to the wolf, would you like to go to the river with me? the wolf said yes, he would like to go to the river. when the bear and the wolf got to the river they found that a beaver had built a bridge to the other side of the river. the bear and the wolf crossed the bridge that was built by the beaver and found that they were now in a part of the woods they had never seen before. a little worried that they may get lost in this part of the woods they had never seen before the bear and the wolf turned around. they went back over the bridge and were happy to be back in a part of the woods they knew so well. the beaver thanked both the bear and the wolf for trying out his new bridge and then started to build yet another bridge close to the first bridge. he was a very busy beaver.
+Question: this is a story of which two animals taking a walk in the woods?: this, is
+a)a bear and a beaver	10
+this is a story about a bear and a wolf :bear
+b)a dog and a wolf	4
+this is a story about a bear and a wolf :dog
+c)a bear and a dog	10
+this is a story about a bear and a wolf :bear
+****d)a bear and a wolf	10
+this is a story about a bear and a wolf :bear
+^INCORRECT^
+
+
+-----------------------
+Text: jenny's family lived in a small apartment in seattle.  one day jenny came home from school and her mom told her that the family was moving to utah.  jenny was sad to leave her friends. jenny was sad to leave her school.  jenny helped her mom pack boxes and clean their apartment to get ready for the move.  soon the day came when jenny's dad brought a large truck to the parking lot and all of the family's things were put inside.  jenny and her mom rode in their car and her dad drove the truck towards utah.  jenny loved getting to eat lots of yummy fast food on the way.  when the family got to their new home in utah, jenny helped her parents to take all of the boxes into the house.  she loved her new bedroom!  when jenny was emptying box of her toys, there was a knock at the door.  it was a little girl who wanted jenny to play! jenny was going to like utah!
+Question: who drove the truck?: truck, drove
+a)jenny	10
+ jenny and her mom rode in their car and her dad drove the truck towards utah :jenny
+b)jenny's brother	10
+ jenny and her mom rode in their car and her dad drove the truck towards utah :jenny
+c)jenny's mom	10
+ jenny and her mom rode in their car and her dad drove the truck towards utah :jenny
+****d)jenny's dad	10
+ jenny and her mom rode in their car and her dad drove the truck towards utah :jenny
+^INCORRECT^
+
+
+-----------------------
+Text: jenny's family lived in a small apartment in seattle.  one day jenny came home from school and her mom told her that the family was moving to utah.  jenny was sad to leave her friends. jenny was sad to leave her school.  jenny helped her mom pack boxes and clean their apartment to get ready for the move.  soon the day came when jenny's dad brought a large truck to the parking lot and all of the family's things were put inside.  jenny and her mom rode in their car and her dad drove the truck towards utah.  jenny loved getting to eat lots of yummy fast food on the way.  when the family got to their new home in utah, jenny helped her parents to take all of the boxes into the house.  she loved her new bedroom!  when jenny was emptying box of her toys, there was a knock at the door.  it was a little girl who wanted jenny to play! jenny was going to like utah!
+Question: where did jenny live before she moved?: jenny, live
+a)new york	8
+ when the family got to their new home in utah , jenny helped her parents to take all of the boxes into the house :new
+b)utah	8
+ one day jenny came home from school and her mom told her that the family was moving to utah :utah
+c)austin	4
+jenny 's family lived in a small apartment in seattle :austin
+****d)seattle	10
+jenny 's family lived in a small apartment in seattle :seattle
+^CORRECT^
+
+
+-----------------------
+Text: jenny's family lived in a small apartment in seattle.  one day jenny came home from school and her mom told her that the family was moving to utah.  jenny was sad to leave her friends. jenny was sad to leave her school.  jenny helped her mom pack boxes and clean their apartment to get ready for the move.  soon the day came when jenny's dad brought a large truck to the parking lot and all of the family's things were put inside.  jenny and her mom rode in their car and her dad drove the truck towards utah.  jenny loved getting to eat lots of yummy fast food on the way.  when the family got to their new home in utah, jenny helped her parents to take all of the boxes into the house.  she loved her new bedroom!  when jenny was emptying box of her toys, there was a knock at the door.  it was a little girl who wanted jenny to play! jenny was going to like utah!
+Question: what made jenny happy about being in utah?: jenny, made
+a)the music	2
+jenny 's family lived in a small apartment in seattle :music
+b)the pretty views	2
+jenny 's family lived in a small apartment in seattle :views
+c)being with her mom	8
+ one day jenny came home from school and her mom told her that the family was moving to utah :mom
+****d)a little girl came to play	8
+ it was a little girl who wanted jenny to play :girl
+^INCORRECT^
+
+
+-----------------------
+Text: jenny's family lived in a small apartment in seattle.  one day jenny came home from school and her mom told her that the family was moving to utah.  jenny was sad to leave her friends. jenny was sad to leave her school.  jenny helped her mom pack boxes and clean their apartment to get ready for the move.  soon the day came when jenny's dad brought a large truck to the parking lot and all of the family's things were put inside.  jenny and her mom rode in their car and her dad drove the truck towards utah.  jenny loved getting to eat lots of yummy fast food on the way.  when the family got to their new home in utah, jenny helped her parents to take all of the boxes into the house.  she loved her new bedroom!  when jenny was emptying box of her toys, there was a knock at the door.  it was a little girl who wanted jenny to play! jenny was going to like utah!
+Question: why was jenny sad about the move?: jenny, NONE
+a)she had to leave her stuff	2
+jenny 's family lived in a small apartment in seattle :had
+b)she didn't want to leave her soccer team	8
+ it was a little girl who wanted jenny to play :want
+****c)she had to leave her friends and her school	2
+jenny 's family lived in a small apartment in seattle :had
+d)she didn't want to leave her family	8
+ it was a little girl who wanted jenny to play :want
+^INCORRECT^
+
+
+-----------------------
+Text: mike and jeff are close friends. their school is having a guessing game to guess how many gumballs are in a box. if they get the right amount they win $100. if they get close they get a $20 gift card. the box looks like it is missing some gumballs. it turns out some people are eating them when they place their guess. 100 people guessed and took a piece of candy. the box is 10" by 10" by 10". each gumball is 1" each. mike guessed 500. jeff guessed 800. they both said they would split their money they win, if they win.
+Question: who is closer?: NONE, is
+a)both	6
+they both said they would split their money they win , if they win :both
+****b)jeff	8
+mike and jeff are close friends :jeff
+c)mike	8
+mike and jeff are close friends :mike
+d)neither	2
+mike and jeff are close friends :neither
+^CORRECT^
+
+
+-----------------------
+Text: mike and jeff are close friends. their school is having a guessing game to guess how many gumballs are in a box. if they get the right amount they win $100. if they get close they get a $20 gift card. the box looks like it is missing some gumballs. it turns out some people are eating them when they place their guess. 100 people guessed and took a piece of candy. the box is 10" by 10" by 10". each gumball is 1" each. mike guessed 500. jeff guessed 800. they both said they would split their money they win, if they win.
+Question: how likely would it be for one of them to win?: it, be
+a)5/100	4
+the box looks like it is missing some gumballs :5/100
+b)10/100	4
+the box looks like it is missing some gumballs :10/100
+****c)1/100	4
+the box looks like it is missing some gumballs :1/100
+d)100/100	4
+the box looks like it is missing some gumballs :100/100
+^INCORRECT^
+
+
+-----------------------
+Text: mike and jeff are close friends. their school is having a guessing game to guess how many gumballs are in a box. if they get the right amount they win $100. if they get close they get a $20 gift card. the box looks like it is missing some gumballs. it turns out some people are eating them when they place their guess. 100 people guessed and took a piece of candy. the box is 10" by 10" by 10". each gumball is 1" each. mike guessed 500. jeff guessed 800. they both said they would split their money they win, if they win.
+Question: how likely would it be neither of them to win?: neither, be
+a)89/99	2
+mike and jeff are close friends :89/99
+b)99/99	2
+mike and jeff are close friends :99/99
+c)99/100	2
+mike and jeff are close friends :99/100
+****d)98/100	2
+mike and jeff are close friends :98/100
+^INCORRECT^
+
+
+-----------------------
+Text: mike and jeff are close friends. their school is having a guessing game to guess how many gumballs are in a box. if they get the right amount they win $100. if they get close they get a $20 gift card. the box looks like it is missing some gumballs. it turns out some people are eating them when they place their guess. 100 people guessed and took a piece of candy. the box is 10" by 10" by 10". each gumball is 1" each. mike guessed 500. jeff guessed 800. they both said they would split their money they win, if they win.
+Question: what is the right amount?: amount, is
+a)1000	2
+mike and jeff are close friends :1000
+b)800	6
+jeff guessed 800 :800
+****c)900	2
+mike and jeff are close friends :900
+d)700	2
+mike and jeff are close friends :700
+^INCORRECT^
+
+
+-----------------------
+Text: hannah and her friend mary were bored.  they sat around the house and tried to think about what to do.  they petted the cat.  they drew pictures in hannah's notebook.  they snuck into hannah's mother's closet to try on her shoes, but hannah's mother caught them.  she said, "you girls need something to do.  let's take a walk to the park!" hannah and mary looked at each other, and then jumped up and down happily.  "the park sounds great!" said hannah.  "let's go!" cried mary.  so hannah's mother packed up a snack of apples and cookies, and they all set off to walk to the park.  they walked down the sidewalk, looking at all the interesting things along the way.  mary spotted a squirrel.  hannah saw a yellow bird.  hannah's mother pointed out the pretty yellow flowers growing in front of mr. smith's house.  when they got to the park, hannah's mother spread out a picnic blanket and the snack.  hannah and mary ran around chasing butterflies for a little time, and then sat down to eat their snacks.  when they finished, hannah's mother put the leftovers in a trash can.  as they walked back home, hannah thought that the boring day had turned out quite well.
+Question: what did hannah and mary chase at the park?: hannah, NONE
+****a)butterflies	8
+ hannah and mary ran around chasing butterflies for a little time , and then sat down to eat their snacks :butterflies
+b)turtles	2
+hannah and her friend mary were bored :turtles
+c)birds	8
+ hannah saw a yellow bird :birds
+d)ducks	2
+hannah and her friend mary were bored :ducks
+^CORRECT^
+
+
+-----------------------
+Text: hannah and her friend mary were bored.  they sat around the house and tried to think about what to do.  they petted the cat.  they drew pictures in hannah's notebook.  they snuck into hannah's mother's closet to try on her shoes, but hannah's mother caught them.  she said, "you girls need something to do.  let's take a walk to the park!" hannah and mary looked at each other, and then jumped up and down happily.  "the park sounds great!" said hannah.  "let's go!" cried mary.  so hannah's mother packed up a snack of apples and cookies, and they all set off to walk to the park.  they walked down the sidewalk, looking at all the interesting things along the way.  mary spotted a squirrel.  hannah saw a yellow bird.  hannah's mother pointed out the pretty yellow flowers growing in front of mr. smith's house.  when they got to the park, hannah's mother spread out a picnic blanket and the snack.  hannah and mary ran around chasing butterflies for a little time, and then sat down to eat their snacks.  when they finished, hannah's mother put the leftovers in a trash can.  as they walked back home, hannah thought that the boring day had turned out quite well.
+Question: what did hannah's mother do with the leftovers?: hannah, do
+a)threw it on the ground	4
+ she said , " you girls need something to do :ground
+b)there was no trash	8
+ when they finished , hannah 's mother put the leftovers in a trash can :trash
+****c)put it in the trash can	8
+ when they finished , hannah 's mother put the leftovers in a trash can :trash
+d)took it home	6
+ let 's take a walk to the park :took
+^INCORRECT^
+
+
+-----------------------
+Text: hannah and her friend mary were bored.  they sat around the house and tried to think about what to do.  they petted the cat.  they drew pictures in hannah's notebook.  they snuck into hannah's mother's closet to try on her shoes, but hannah's mother caught them.  she said, "you girls need something to do.  let's take a walk to the park!" hannah and mary looked at each other, and then jumped up and down happily.  "the park sounds great!" said hannah.  "let's go!" cried mary.  so hannah's mother packed up a snack of apples and cookies, and they all set off to walk to the park.  they walked down the sidewalk, looking at all the interesting things along the way.  mary spotted a squirrel.  hannah saw a yellow bird.  hannah's mother pointed out the pretty yellow flowers growing in front of mr. smith's house.  when they got to the park, hannah's mother spread out a picnic blanket and the snack.  hannah and mary ran around chasing butterflies for a little time, and then sat down to eat their snacks.  when they finished, hannah's mother put the leftovers in a trash can.  as they walked back home, hannah thought that the boring day had turned out quite well.
+Question: what did hannah and mary see on their way to the park?: hannah, see
+a)a butterfly and a bird	8
+ hannah and mary ran around chasing butterflies for a little time , and then sat down to eat their snacks :butterfly
+****b)a squirrel, a yellow bird, and pink flowers	6
+ mary spotted a squirrel :squirrel
+c)a horse	2
+hannah and her friend mary were bored :horse
+d)a pink squirrel, a bird, and yellow flowers	6
+ mary spotted a squirrel :squirrel
+^INCORRECT^
+
+
+-----------------------
+Text: hannah and her friend mary were bored.  they sat around the house and tried to think about what to do.  they petted the cat.  they drew pictures in hannah's notebook.  they snuck into hannah's mother's closet to try on her shoes, but hannah's mother caught them.  she said, "you girls need something to do.  let's take a walk to the park!" hannah and mary looked at each other, and then jumped up and down happily.  "the park sounds great!" said hannah.  "let's go!" cried mary.  so hannah's mother packed up a snack of apples and cookies, and they all set off to walk to the park.  they walked down the sidewalk, looking at all the interesting things along the way.  mary spotted a squirrel.  hannah saw a yellow bird.  hannah's mother pointed out the pretty yellow flowers growing in front of mr. smith's house.  when they got to the park, hannah's mother spread out a picnic blanket and the snack.  hannah and mary ran around chasing butterflies for a little time, and then sat down to eat their snacks.  when they finished, hannah's mother put the leftovers in a trash can.  as they walked back home, hannah thought that the boring day had turned out quite well.
+Question: what did hannah and mary do when they were bored?: hannah, do
+a)sang songs and drew pictures	4
+ she said , " you girls need something to do :songs
+b)played games	4
+ she said , " you girls need something to do :games
+****c)petted the cat and drew pictures	6
+ they petted the cat :cat
+d)jumped rope	4
+ she said , " you girls need something to do :rope
+^CORRECT^
+
+
+-----------------------
+Text: douglas loves to play soccer. he plays for the dolphins. he is very good.  he was excited about the big game with the lions.  the night before the game, he went to bed late.  he was watching three tv shows that night.  first, was muffins the cat.  the second show was ernie the talking donkey.  the third was laughing with herman hamster.  his mom told him to go to bed, but douglas didn't listen.  he fell asleep on the couch. he dreamed all night.  first about sheep jumping fences.  second about playing fetch the ball with ruffles. third about ernie the talking donkey kicking a soccer ball over the moon. fourth about his favorite soccer player, pele, head the ball in the goal.  finally, the next morning, douglas got up late because he was so tired.  his mom called him and the alarm went off, but he did not hear. to get douglas up, his mom got ruffles the dog to lick him in the face.  douglas got up but had to eat breakfast fast.  then he quickly dressed into his uniform.  he was yawning.  his mom drove him to the soccer field.  the game had started.  douglas had to sit out the first quarter.  his team was losing one to nothing when howard scored for the lions. douglas started the second quarter.  he was tired and could not keep up with the rest of his team.  the coach was surprised that douglas was so slow.  usually he was fast.  after the second quarter, the dolphins were losing two to one after howard scored again for the lions and toby scored a goal for the dolphins. while the coach gave energy drinks to the team, douglas fell asleep.  the third quarter started.  douglas was snoring when the coach told him to go in.  when he saw douglas was sleeping, he sent billy into the game.  billy scored one goal and the dolphins had tied the game two to two.  ruffles the dog started barking and then licking douglas in the face.  douglas got up and stretched.  he was finally well rested.  the coach saw douglas and sent him into the game.  douglas remembered his dream.  in the last second, he headed the ball in the goal like pele. he won the game. the team cheered.  since that time, douglas goes to bed on time.  he always wants to be well rested.  his mom was right.  he gave her a hug.
+Question: what dream helped douglas win the game?: douglas, helped
+a)he dreamed about ernie the donkey kick the ball over the moon.	6
+ the second show was ernie the talking donkey :ernie
+****b)he dreamed about pele heading the ball in the goal.	8
+ in the last second , he headed the ball in the goal like pele :pele
+c)he dreamed about ruffles fetching the ball.	8
+to get douglas up , his mom got ruffles the dog to lick him in the face :ruffles
+d)he dreamed about sheep jumping over fences.	8
+he dreamed all night :dreamed
+^CORRECT^
+
+
+-----------------------
+Text: douglas loves to play soccer. he plays for the dolphins. he is very good.  he was excited about the big game with the lions.  the night before the game, he went to bed late.  he was watching three tv shows that night.  first, was muffins the cat.  the second show was ernie the talking donkey.  the third was laughing with herman hamster.  his mom told him to go to bed, but douglas didn't listen.  he fell asleep on the couch. he dreamed all night.  first about sheep jumping fences.  second about playing fetch the ball with ruffles. third about ernie the talking donkey kicking a soccer ball over the moon. fourth about his favorite soccer player, pele, head the ball in the goal.  finally, the next morning, douglas got up late because he was so tired.  his mom called him and the alarm went off, but he did not hear. to get douglas up, his mom got ruffles the dog to lick him in the face.  douglas got up but had to eat breakfast fast.  then he quickly dressed into his uniform.  he was yawning.  his mom drove him to the soccer field.  the game had started.  douglas had to sit out the first quarter.  his team was losing one to nothing when howard scored for the lions. douglas started the second quarter.  he was tired and could not keep up with the rest of his team.  the coach was surprised that douglas was so slow.  usually he was fast.  after the second quarter, the dolphins were losing two to one after howard scored again for the lions and toby scored a goal for the dolphins. while the coach gave energy drinks to the team, douglas fell asleep.  the third quarter started.  douglas was snoring when the coach told him to go in.  when he saw douglas was sleeping, he sent billy into the game.  billy scored one goal and the dolphins had tied the game two to two.  ruffles the dog started barking and then licking douglas in the face.  douglas got up and stretched.  he was finally well rested.  the coach saw douglas and sent him into the game.  douglas remembered his dream.  in the last second, he headed the ball in the goal like pele. he won the game. the team cheered.  since that time, douglas goes to bed on time.  he always wants to be well rested.  his mom was right.  he gave her a hug.
+Question: who woke douglas up by licking him in the face?: douglas, woke
+a)muffin the cat.	6
+ first , was muffins the cat :muffin
+b)herman the hamster.	6
+ the third was laughing with herman hamster :herman
+c)ernie the donkey.	6
+ the second show was ernie the talking donkey :ernie
+****d)ruffles the dog.	8
+to get douglas up , his mom got ruffles the dog to lick him in the face :dog
+^CORRECT^
+
+
+-----------------------
+Text: douglas loves to play soccer. he plays for the dolphins. he is very good.  he was excited about the big game with the lions.  the night before the game, he went to bed late.  he was watching three tv shows that night.  first, was muffins the cat.  the second show was ernie the talking donkey.  the third was laughing with herman hamster.  his mom told him to go to bed, but douglas didn't listen.  he fell asleep on the couch. he dreamed all night.  first about sheep jumping fences.  second about playing fetch the ball with ruffles. third about ernie the talking donkey kicking a soccer ball over the moon. fourth about his favorite soccer player, pele, head the ball in the goal.  finally, the next morning, douglas got up late because he was so tired.  his mom called him and the alarm went off, but he did not hear. to get douglas up, his mom got ruffles the dog to lick him in the face.  douglas got up but had to eat breakfast fast.  then he quickly dressed into his uniform.  he was yawning.  his mom drove him to the soccer field.  the game had started.  douglas had to sit out the first quarter.  his team was losing one to nothing when howard scored for the lions. douglas started the second quarter.  he was tired and could not keep up with the rest of his team.  the coach was surprised that douglas was so slow.  usually he was fast.  after the second quarter, the dolphins were losing two to one after howard scored again for the lions and toby scored a goal for the dolphins. while the coach gave energy drinks to the team, douglas fell asleep.  the third quarter started.  douglas was snoring when the coach told him to go in.  when he saw douglas was sleeping, he sent billy into the game.  billy scored one goal and the dolphins had tied the game two to two.  ruffles the dog started barking and then licking douglas in the face.  douglas got up and stretched.  he was finally well rested.  the coach saw douglas and sent him into the game.  douglas remembered his dream.  in the last second, he headed the ball in the goal like pele. he won the game. the team cheered.  since that time, douglas goes to bed on time.  he always wants to be well rested.  his mom was right.  he gave her a hug.
+Question: how many points did the dolphins score and who scored the goals?: points, scored
+a)they scored two points.  ruffles and billy scored.	8
+ billy scored one goal and the dolphins had tied the game two to two :billy
+****b)they scored three points.  toby, billy and douglas scored.	6
+douglas loves to play soccer :douglas
+c)they scored five points. howard, billy, ruffles, douglas, and billy scored.	8
+ his team was losing one to nothing when howard scored for the lions :howard
+d)they scored one point.  toby scored.	8
+ after the second quarter , the dolphins were losing two to one after howard scored again for the lions and toby scored a goal for the dolphins :toby
+^INCORRECT^
+
+
+-----------------------
+Text: douglas loves to play soccer. he plays for the dolphins. he is very good.  he was excited about the big game with the lions.  the night before the game, he went to bed late.  he was watching three tv shows that night.  first, was muffins the cat.  the second show was ernie the talking donkey.  the third was laughing with herman hamster.  his mom told him to go to bed, but douglas didn't listen.  he fell asleep on the couch. he dreamed all night.  first about sheep jumping fences.  second about playing fetch the ball with ruffles. third about ernie the talking donkey kicking a soccer ball over the moon. fourth about his favorite soccer player, pele, head the ball in the goal.  finally, the next morning, douglas got up late because he was so tired.  his mom called him and the alarm went off, but he did not hear. to get douglas up, his mom got ruffles the dog to lick him in the face.  douglas got up but had to eat breakfast fast.  then he quickly dressed into his uniform.  he was yawning.  his mom drove him to the soccer field.  the game had started.  douglas had to sit out the first quarter.  his team was losing one to nothing when howard scored for the lions. douglas started the second quarter.  he was tired and could not keep up with the rest of his team.  the coach was surprised that douglas was so slow.  usually he was fast.  after the second quarter, the dolphins were losing two to one after howard scored again for the lions and toby scored a goal for the dolphins. while the coach gave energy drinks to the team, douglas fell asleep.  the third quarter started.  douglas was snoring when the coach told him to go in.  when he saw douglas was sleeping, he sent billy into the game.  billy scored one goal and the dolphins had tied the game two to two.  ruffles the dog started barking and then licking douglas in the face.  douglas got up and stretched.  he was finally well rested.  the coach saw douglas and sent him into the game.  douglas remembered his dream.  in the last second, he headed the ball in the goal like pele. he won the game. the team cheered.  since that time, douglas goes to bed on time.  he always wants to be well rested.  his mom was right.  he gave her a hug.
+Question: what game does douglas love to play?: douglas, love
+a)douglas loves to play baseball.	10
+douglas loves to play soccer :douglas
+****b)douglas loves to play soccer.	10
+douglas loves to play soccer :douglas
+c)douglas loves to play basketball.	10
+douglas loves to play soccer :douglas
+d)douglas loves to play cards.	10
+douglas loves to play soccer :douglas
+^INCORRECT^
+
+
+-----------------------
+Text: i'm here to tell you the story of a robot named carl. he came from a far away land known as factory. carl was sad because he was missing a part called a tire. he also needed a sun gatherer. but, the tire was more important. once carl got all these parts he could travel to his new home in the nation of lab and the city of office. it was a tricky thing to get there with missing parts. just as he had given up hope carl got a message from mr. x saying the new parts were ready to be delivered. this made the robot very happy. the parts arrived a few days later and carl put them in with 2 days of work. after this carl began to travel the last bit of his goal to get to his new job. after this carl took 10 days to get to lab.
+Question: what nation did carl want to get to?: carl, want
+a)carl	8
+i 'm here to tell you the story of a robot named carl :carl
+b)office	8
+once carl got all these parts he could travel to his new home in the nation of lab and the city of office :office
+c)factory	8
+he came from a far away land known as factory :factory
+****d)lab	8
+once carl got all these parts he could travel to his new home in the nation of lab and the city of office :lab
+^INCORRECT^
+
+
+-----------------------
+Text: i'm here to tell you the story of a robot named carl. he came from a far away land known as factory. carl was sad because he was missing a part called a tire. he also needed a sun gatherer. but, the tire was more important. once carl got all these parts he could travel to his new home in the nation of lab and the city of office. it was a tricky thing to get there with missing parts. just as he had given up hope carl got a message from mr. x saying the new parts were ready to be delivered. this made the robot very happy. the parts arrived a few days later and carl put them in with 2 days of work. after this carl began to travel the last bit of his goal to get to his new job. after this carl took 10 days to get to lab.
+Question: besides a tire what part did carl need?: carl, need
+a)missing	8
+carl was sad because he was missing a part called a tire :missing
+b)important	6
+but , the tire was more important :important
+c)tire	8
+carl was sad because he was missing a part called a tire :tire
+****d)sun gatherer	10
+he also needed a sun gatherer :sun
+^CORRECT^
+
+
+-----------------------
+Text: i'm here to tell you the story of a robot named carl. he came from a far away land known as factory. carl was sad because he was missing a part called a tire. he also needed a sun gatherer. but, the tire was more important. once carl got all these parts he could travel to his new home in the nation of lab and the city of office. it was a tricky thing to get there with missing parts. just as he had given up hope carl got a message from mr. x saying the new parts were ready to be delivered. this made the robot very happy. the parts arrived a few days later and carl put them in with 2 days of work. after this carl began to travel the last bit of his goal to get to his new job. after this carl took 10 days to get to lab.
+Question: where did carl come from?: carl, come
+a)lab	8
+once carl got all these parts he could travel to his new home in the nation of lab and the city of office :lab
+b)mr. x	8
+just as he had given up hope carl got a message from mr. x saying the new parts were ready to be delivered :x
+c)office	8
+once carl got all these parts he could travel to his new home in the nation of lab and the city of office :office
+****d)factory	10
+he came from a far away land known as factory :factory
+^CORRECT^
+
+
+-----------------------
+Text: i'm here to tell you the story of a robot named carl. he came from a far away land known as factory. carl was sad because he was missing a part called a tire. he also needed a sun gatherer. but, the tire was more important. once carl got all these parts he could travel to his new home in the nation of lab and the city of office. it was a tricky thing to get there with missing parts. just as he had given up hope carl got a message from mr. x saying the new parts were ready to be delivered. this made the robot very happy. the parts arrived a few days later and carl put them in with 2 days of work. after this carl began to travel the last bit of his goal to get to his new job. after this carl took 10 days to get to lab.
+Question: what was the only city in the story?: city, NONE
+****a)office	8
+once carl got all these parts he could travel to his new home in the nation of lab and the city of office :office
+b)mr. x	6
+just as he had given up hope carl got a message from mr. x saying the new parts were ready to be delivered :x
+c)lab	8
+once carl got all these parts he could travel to his new home in the nation of lab and the city of office :lab
+d)factory	6
+he came from a far away land known as factory :factory
+^CORRECT^
+
+
+-----------------------
+Text: on a hot summer day, brian was walking home from the park. while walking, brian passed his favorite toy store, and saw that they had a new baseball glove in the window.  brian's baseball glove was very old and was ripped in a few places.  brian really wanted the new glove because he wanted to show off his glove to his friends tomorrow. the cost of the new glove was fifteen dollars, but when brian checked his pockets for money, he only had six dollars and fifty cents.  brian ran home and went to look around his house for money. he checked under his bed and found fifty cents under some toys.  he then checked all of his pockets of his pants and shorts, and found another two dollars.  brian then went to look between the cushions on all of the couches in his house, and he found another three dollars.  after finally looking around his whole house, brian knew that he still did not have enough money to buy the new glove.  brian went outside and saw his dad doing yard work. he told his dad that he would finish all the yard work for him, if he could have the money he needed for the new glove.  his dad said yes, so brian spent the rest of the afternoon raking the yard, and bagging leaves.  brian's dad was very proud that his son was working hard for money. when brian was finally done, brian knew that he was too late, and the toy store was closed.  just as brian was walking inside, he saw his dad walk up to home holding the new glove that he wanted.  brian was so happy, and he and his dad spent the rest of the afternoon having a catch.
+Question: why did brian dad buy him the glove?: brian, buy
+a)his dad wanted to him to practice.	8
+ brian went outside and saw his dad doing yard work :dad
+b)his dad didn't want him to use his old glove.	8
+ brian really wanted the new glove because he wanted to show off his glove to his friends tomorrow :want
+****c)his dad was proud that he was working hard.	8
+ brian went outside and saw his dad doing yard work :working
+d)his dad knew that he really wanted it in order to show off his friends.	10
+ after finally looking around his whole house , brian knew that he still did not have enough money to buy the new glove :knew
+^INCORRECT^
+
+
+-----------------------
+Text: on a hot summer day, brian was walking home from the park. while walking, brian passed his favorite toy store, and saw that they had a new baseball glove in the window.  brian's baseball glove was very old and was ripped in a few places.  brian really wanted the new glove because he wanted to show off his glove to his friends tomorrow. the cost of the new glove was fifteen dollars, but when brian checked his pockets for money, he only had six dollars and fifty cents.  brian ran home and went to look around his house for money. he checked under his bed and found fifty cents under some toys.  he then checked all of his pockets of his pants and shorts, and found another two dollars.  brian then went to look between the cushions on all of the couches in his house, and he found another three dollars.  after finally looking around his whole house, brian knew that he still did not have enough money to buy the new glove.  brian went outside and saw his dad doing yard work. he told his dad that he would finish all the yard work for him, if he could have the money he needed for the new glove.  his dad said yes, so brian spent the rest of the afternoon raking the yard, and bagging leaves.  brian's dad was very proud that his son was working hard for money. when brian was finally done, brian knew that he was too late, and the toy store was closed.  just as brian was walking inside, he saw his dad walk up to home holding the new glove that he wanted.  brian was so happy, and he and his dad spent the rest of the afternoon having a catch.
+Question: how much money did brian find under his bed?: brian, find
+a)fifteen dollars	10
+ he then checked all of his pockets of his pants and shorts , and found another two dollars :dollars
+b)two dollars	10
+ he then checked all of his pockets of his pants and shorts , and found another two dollars :dollars
+****c)fifty cents	10
+he checked under his bed and found fifty cents under some toys :cents
+d)three dollars	10
+ he then checked all of his pockets of his pants and shorts , and found another two dollars :dollars
+^INCORRECT^
+
+
+-----------------------
+Text: on a hot summer day, brian was walking home from the park. while walking, brian passed his favorite toy store, and saw that they had a new baseball glove in the window.  brian's baseball glove was very old and was ripped in a few places.  brian really wanted the new glove because he wanted to show off his glove to his friends tomorrow. the cost of the new glove was fifteen dollars, but when brian checked his pockets for money, he only had six dollars and fifty cents.  brian ran home and went to look around his house for money. he checked under his bed and found fifty cents under some toys.  he then checked all of his pockets of his pants and shorts, and found another two dollars.  brian then went to look between the cushions on all of the couches in his house, and he found another three dollars.  after finally looking around his whole house, brian knew that he still did not have enough money to buy the new glove.  brian went outside and saw his dad doing yard work. he told his dad that he would finish all the yard work for him, if he could have the money he needed for the new glove.  his dad said yes, so brian spent the rest of the afternoon raking the yard, and bagging leaves.  brian's dad was very proud that his son was working hard for money. when brian was finally done, brian knew that he was too late, and the toy store was closed.  just as brian was walking inside, he saw his dad walk up to home holding the new glove that he wanted.  brian was so happy, and he and his dad spent the rest of the afternoon having a catch.
+Question: why did brian want a new glove?: brian, want
+****a)so he could show it off to his friends.	10
+ brian really wanted the new glove because he wanted to show off his glove to his friends tomorrow :show
+b)he did not have any baseball glove.	8
+while walking , brian passed his favorite toy store , and saw that they had a new baseball glove in the window :have
+c)he lost his old baseball glove.	4
+ brian really wanted the new glove because he wanted to show off his glove to his friends tomorrow :lost
+d)so he could have a catch with his dad.	8
+while walking , brian passed his favorite toy store , and saw that they had a new baseball glove in the window :have
+^CORRECT^
+
+
+-----------------------
+Text: on a hot summer day, brian was walking home from the park. while walking, brian passed his favorite toy store, and saw that they had a new baseball glove in the window.  brian's baseball glove was very old and was ripped in a few places.  brian really wanted the new glove because he wanted to show off his glove to his friends tomorrow. the cost of the new glove was fifteen dollars, but when brian checked his pockets for money, he only had six dollars and fifty cents.  brian ran home and went to look around his house for money. he checked under his bed and found fifty cents under some toys.  he then checked all of his pockets of his pants and shorts, and found another two dollars.  brian then went to look between the cushions on all of the couches in his house, and he found another three dollars.  after finally looking around his whole house, brian knew that he still did not have enough money to buy the new glove.  brian went outside and saw his dad doing yard work. he told his dad that he would finish all the yard work for him, if he could have the money he needed for the new glove.  his dad said yes, so brian spent the rest of the afternoon raking the yard, and bagging leaves.  brian's dad was very proud that his son was working hard for money. when brian was finally done, brian knew that he was too late, and the toy store was closed.  just as brian was walking inside, he saw his dad walk up to home holding the new glove that he wanted.  brian was so happy, and he and his dad spent the rest of the afternoon having a catch.
+Question: how much money did brian have in total after looking in his house?: brian, have
+a)fifteen dollars	10
+the cost of the new glove was fifteen dollars , but when brian checked his pockets for money , he only had six dollars and fifty cents :dollars
+****b)twelve dollars	10
+the cost of the new glove was fifteen dollars , but when brian checked his pockets for money , he only had six dollars and fifty cents :dollars
+c)six dollars	10
+the cost of the new glove was fifteen dollars , but when brian checked his pockets for money , he only had six dollars and fifty cents :dollars
+d)fifty dollars	10
+the cost of the new glove was fifteen dollars , but when brian checked his pockets for money , he only had six dollars and fifty cents :dollars
+^INCORRECT^
+
+
+-----------------------
+Text: on a nice and sunny day, bob and sally walked to the beach. when they got there, the first thing they wanted to do was to look for buried treasure. to find the treasure they had brought two shovels and two buckets. they both started digging holes in the sand with their shovels. after looking very hard for treasure for an hour, they didn't find anything. this made bob and sally very sad. they gave up and went to play in the water. while they were playing in the water, sally found a bottle with a little paper inside. sally opened the bottle and found a treasure map. sally showed the map to bob and they started to look for the treasure.  after walking every step that the map said, they started digging with their shovels. after digging a really a big hole, they found a box. they were very happy that they found it and wanted to see what was inside. bob slowly opened the box and there was a very big pearl.  next, they ran to a special store to ask about the pearl. the worker in the store told bob and sally that the pearl could make them rich. bob and sally looked at each other and decided not to sell it. they took the pearl home and saved it in a special box, so they could remember their day at the beach.
+Question: what did bob and sally find in the box?: bob, find
+a)a coin	2
+on a nice and sunny day , bob and sally walked to the beach :coin
+****b)a pearl	8
+bob slowly opened the box and there was a very big pearl :pearl
+c)a ring	2
+on a nice and sunny day , bob and sally walked to the beach :ring
+d)a necklace	2
+on a nice and sunny day , bob and sally walked to the beach :necklace
+^CORRECT^
+
+
+-----------------------
+Text: on a nice and sunny day, bob and sally walked to the beach. when they got there, the first thing they wanted to do was to look for buried treasure. to find the treasure they had brought two shovels and two buckets. they both started digging holes in the sand with their shovels. after looking very hard for treasure for an hour, they didn't find anything. this made bob and sally very sad. they gave up and went to play in the water. while they were playing in the water, sally found a bottle with a little paper inside. sally opened the bottle and found a treasure map. sally showed the map to bob and they started to look for the treasure.  after walking every step that the map said, they started digging with their shovels. after digging a really a big hole, they found a box. they were very happy that they found it and wanted to see what was inside. bob slowly opened the box and there was a very big pearl.  next, they ran to a special store to ask about the pearl. the worker in the store told bob and sally that the pearl could make them rich. bob and sally looked at each other and decided not to sell it. they took the pearl home and saved it in a special box, so they could remember their day at the beach.
+Question: what did sally find in the water?: sally, find
+a)a shell	4
+while they were playing in the water , sally found a bottle with a little paper inside :shell
+b)a bucket	8
+to find the treasure they had brought two shovels and two buckets :bucket
+****c)a bottle	10
+while they were playing in the water , sally found a bottle with a little paper inside :bottle
+d)a shovel	8
+to find the treasure they had brought two shovels and two buckets :shovel
+^CORRECT^
+
+
+-----------------------
+Text: on a nice and sunny day, bob and sally walked to the beach. when they got there, the first thing they wanted to do was to look for buried treasure. to find the treasure they had brought two shovels and two buckets. they both started digging holes in the sand with their shovels. after looking very hard for treasure for an hour, they didn't find anything. this made bob and sally very sad. they gave up and went to play in the water. while they were playing in the water, sally found a bottle with a little paper inside. sally opened the bottle and found a treasure map. sally showed the map to bob and they started to look for the treasure.  after walking every step that the map said, they started digging with their shovels. after digging a really a big hole, they found a box. they were very happy that they found it and wanted to see what was inside. bob slowly opened the box and there was a very big pearl.  next, they ran to a special store to ask about the pearl. the worker in the store told bob and sally that the pearl could make them rich. bob and sally looked at each other and decided not to sell it. they took the pearl home and saved it in a special box, so they could remember their day at the beach.
+Question: what did bob and sally do after they showed the pearl to the worker?: bob, do
+a)they sold it.	8
+bob and sally looked at each other and decided not to sell it :sold
+b)they left it at the beach.	2
+on a nice and sunny day , bob and sally walked to the beach :left
+****c)they took it home.	6
+they took the pearl home and saved it in a special box , so they could remember their day at the beach :took
+d)they gave it away.	6
+they gave up and went to play in the water :gave
+^INCORRECT^
+
+
+-----------------------
+Text: on a nice and sunny day, bob and sally walked to the beach. when they got there, the first thing they wanted to do was to look for buried treasure. to find the treasure they had brought two shovels and two buckets. they both started digging holes in the sand with their shovels. after looking very hard for treasure for an hour, they didn't find anything. this made bob and sally very sad. they gave up and went to play in the water. while they were playing in the water, sally found a bottle with a little paper inside. sally opened the bottle and found a treasure map. sally showed the map to bob and they started to look for the treasure.  after walking every step that the map said, they started digging with their shovels. after digging a really a big hole, they found a box. they were very happy that they found it and wanted to see what was inside. bob slowly opened the box and there was a very big pearl.  next, they ran to a special store to ask about the pearl. the worker in the store told bob and sally that the pearl could make them rich. bob and sally looked at each other and decided not to sell it. they took the pearl home and saved it in a special box, so they could remember their day at the beach.
+Question: why did bob and sally stop looking for the treasure?: bob, stop
+****a)they were sad at not finding anything.	8
+bob slowly opened the box and there was a very big pearl :were
+b)they forgot to bring a shovel.	2
+on a nice and sunny day , bob and sally walked to the beach :forgot
+c)they did not want to find the treasure.	6
+when they got there , the first thing they wanted to do was to look for buried treasure :want
+d)they got hungry.	6
+when they got there , the first thing they wanted to do was to look for buried treasure :got
+^CORRECT^
+
+
+-----------------------
+Text: it was a beautiful sunny and warm day. i was working outside in my garden. i was pulling weeds which is not my favorite job, but i was enjoying the day. i live by a lake so sometimes i take a break from my chores and look at the lake. it is so beautiful and it makes me happy to look at the beautiful lake and see what animals i can find swimming in or near the lake.  on this day, i kept hearing a low soft sound coming from the lake. i got up from my garden and walked to the lake. i kept hearing this strange sound. it sounded like someone talking in a very low voice. i thought it might be a lake bird because we see and hear them all of the time. the lake birds have several different calls that tell what they want to "say" to other lake birds. there is the call when they are flying which is very hurried and short. then there is the "where are you" call which is long, slow and loud. but this sound was not like any i had ever heard. i went to get the binoculars to see if i could spot anything. but, no luck. i still kept hearing this low talking sound. i had now totally given up weeding. finding this strange sound was going to be more fun. but where was it coming from? i looked again up and down the lake and saw nothing. finally i went around to the other side of the place where we keep our boats. there is an area there where it is not a very deep part of the water. i spotted them! it was a mother lake bird and a father lake bird with a baby in between them. they were teaching the baby how to swim and eat fish. the low talking sound that i heard must have been them trying to teach the baby to swim and eat the fish. i sat there on the bank and watched for a half an hour. i felt very special that i got to see this. it was such a fun thing to see and way more fun than gardening.
+Question: what was i doing on this day at the beginning of the story?: i, doing
+a)fishing	2
+i was working outside in my garden :fishing
+b)sleeping	2
+i was working outside in my garden :sleeping
+****c)working in the garden	8
+i was working outside in my garden :garden
+d)cooking	2
+i was working outside in my garden :cooking
+^CORRECT^
+
+
+-----------------------
+Text: it was a beautiful sunny and warm day. i was working outside in my garden. i was pulling weeds which is not my favorite job, but i was enjoying the day. i live by a lake so sometimes i take a break from my chores and look at the lake. it is so beautiful and it makes me happy to look at the beautiful lake and see what animals i can find swimming in or near the lake.  on this day, i kept hearing a low soft sound coming from the lake. i got up from my garden and walked to the lake. i kept hearing this strange sound. it sounded like someone talking in a very low voice. i thought it might be a lake bird because we see and hear them all of the time. the lake birds have several different calls that tell what they want to "say" to other lake birds. there is the call when they are flying which is very hurried and short. then there is the "where are you" call which is long, slow and loud. but this sound was not like any i had ever heard. i went to get the binoculars to see if i could spot anything. but, no luck. i still kept hearing this low talking sound. i had now totally given up weeding. finding this strange sound was going to be more fun. but where was it coming from? i looked again up and down the lake and saw nothing. finally i went around to the other side of the place where we keep our boats. there is an area there where it is not a very deep part of the water. i spotted them! it was a mother lake bird and a father lake bird with a baby in between them. they were teaching the baby how to swim and eat fish. the low talking sound that i heard must have been them trying to teach the baby to swim and eat the fish. i sat there on the bank and watched for a half an hour. i felt very special that i got to see this. it was such a fun thing to see and way more fun than gardening.
+Question: what did i finally see?: i, see
+a)two lake birds	10
+it is so beautiful and it makes me happy to look at the beautiful lake and see what animals i can find swimming in or near the lake :lake
+b)four lake birds	10
+it is so beautiful and it makes me happy to look at the beautiful lake and see what animals i can find swimming in or near the lake :lake
+****c)three lake birds	10
+it is so beautiful and it makes me happy to look at the beautiful lake and see what animals i can find swimming in or near the lake :lake
+d)one lake bird	10
+it is so beautiful and it makes me happy to look at the beautiful lake and see what animals i can find swimming in or near the lake :lake
+^INCORRECT^
+
+
+-----------------------
+Text: it was a beautiful sunny and warm day. i was working outside in my garden. i was pulling weeds which is not my favorite job, but i was enjoying the day. i live by a lake so sometimes i take a break from my chores and look at the lake. it is so beautiful and it makes me happy to look at the beautiful lake and see what animals i can find swimming in or near the lake.  on this day, i kept hearing a low soft sound coming from the lake. i got up from my garden and walked to the lake. i kept hearing this strange sound. it sounded like someone talking in a very low voice. i thought it might be a lake bird because we see and hear them all of the time. the lake birds have several different calls that tell what they want to "say" to other lake birds. there is the call when they are flying which is very hurried and short. then there is the "where are you" call which is long, slow and loud. but this sound was not like any i had ever heard. i went to get the binoculars to see if i could spot anything. but, no luck. i still kept hearing this low talking sound. i had now totally given up weeding. finding this strange sound was going to be more fun. but where was it coming from? i looked again up and down the lake and saw nothing. finally i went around to the other side of the place where we keep our boats. there is an area there where it is not a very deep part of the water. i spotted them! it was a mother lake bird and a father lake bird with a baby in between them. they were teaching the baby how to swim and eat fish. the low talking sound that i heard must have been them trying to teach the baby to swim and eat the fish. i sat there on the bank and watched for a half an hour. i felt very special that i got to see this. it was such a fun thing to see and way more fun than gardening.
+Question: what was the sound that i kept hearing?: i, hearing
+a)something that sounded like laughing	4
+ on this day , i kept hearing a low soft sound coming from the lake :laughing
+****b)something that sounded like low talking	10
+i still kept hearing this low talking sound :talking
+c)something that sounded like crying	4
+ on this day , i kept hearing a low soft sound coming from the lake :crying
+d)something that sounded like singing	4
+ on this day , i kept hearing a low soft sound coming from the lake :singing
+^CORRECT^
+
+
+-----------------------
+Text: it was a beautiful sunny and warm day. i was working outside in my garden. i was pulling weeds which is not my favorite job, but i was enjoying the day. i live by a lake so sometimes i take a break from my chores and look at the lake. it is so beautiful and it makes me happy to look at the beautiful lake and see what animals i can find swimming in or near the lake.  on this day, i kept hearing a low soft sound coming from the lake. i got up from my garden and walked to the lake. i kept hearing this strange sound. it sounded like someone talking in a very low voice. i thought it might be a lake bird because we see and hear them all of the time. the lake birds have several different calls that tell what they want to "say" to other lake birds. there is the call when they are flying which is very hurried and short. then there is the "where are you" call which is long, slow and loud. but this sound was not like any i had ever heard. i went to get the binoculars to see if i could spot anything. but, no luck. i still kept hearing this low talking sound. i had now totally given up weeding. finding this strange sound was going to be more fun. but where was it coming from? i looked again up and down the lake and saw nothing. finally i went around to the other side of the place where we keep our boats. there is an area there where it is not a very deep part of the water. i spotted them! it was a mother lake bird and a father lake bird with a baby in between them. they were teaching the baby how to swim and eat fish. the low talking sound that i heard must have been them trying to teach the baby to swim and eat the fish. i sat there on the bank and watched for a half an hour. i felt very special that i got to see this. it was such a fun thing to see and way more fun than gardening.
+Question: how did i feel at the end of the story?: i, feel
+****a)happy	8
+it is so beautiful and it makes me happy to look at the beautiful lake and see what animals i can find swimming in or near the lake :happy
+b)sick	4
+i felt very special that i got to see this :sick
+c)sad	4
+i felt very special that i got to see this :sad
+d)glum	4
+i felt very special that i got to see this :glum
+^CORRECT^
+
+
+-----------------------
+Text: one day magneson took a walk in the park.  he passed some trees and a pond.  in the pond was a duck named george.  george's wife was also in the pond.  her name was nancy.  magneson walked over to the tree.  nancy flew up into the tree.  she wanted to warn magneson about the killer squirrel who lived inside of the tree.  a few years before, the squirrel had thrown a chestnut at george and nancy's son.  he was knocked out, and the squirrel took him away.  he was never seen again.  magneson asked what their son's name was.  they said it was leonard.  but magneson was only making small talk.  he didn't believe the story about the killer squirrel.  even if there was one, there were many rocks by the pond that he could throw at the squirrel.  he could also hide in the tall grass.  george and nancy were sorry to see that magneson wouldn't listen.  they flew away, singing a sad song.  a short time later, the squirrel came out of the tree and threw a giant walnut at magneson.  no one ever saw magneson again.
+Question: what was george's wife's name?: george, NONE
+a)magneson	8
+ she wanted to warn magneson about the killer squirrel who lived inside of the tree :magneson
+b)george	8
+ in the pond was a duck named george :george
+****c)nancy	8
+ a few years before , the squirrel had thrown a chestnut at george and nancy 's son :nancy
+d)leonard	6
+ they said it was leonard :leonard
+^INCORRECT^
+
+
+-----------------------
+Text: one day magneson took a walk in the park.  he passed some trees and a pond.  in the pond was a duck named george.  george's wife was also in the pond.  her name was nancy.  magneson walked over to the tree.  nancy flew up into the tree.  she wanted to warn magneson about the killer squirrel who lived inside of the tree.  a few years before, the squirrel had thrown a chestnut at george and nancy's son.  he was knocked out, and the squirrel took him away.  he was never seen again.  magneson asked what their son's name was.  they said it was leonard.  but magneson was only making small talk.  he didn't believe the story about the killer squirrel.  even if there was one, there were many rocks by the pond that he could throw at the squirrel.  he could also hide in the tall grass.  george and nancy were sorry to see that magneson wouldn't listen.  they flew away, singing a sad song.  a short time later, the squirrel came out of the tree and threw a giant walnut at magneson.  no one ever saw magneson again.
+Question: who did the squirrel throw things at?: squirrel, throw
+a)nellie and george	4
+ a few years before , the squirrel had thrown a chestnut at george and nancy 's son :nellie
+****b)leonard and magneson	6
+ they said it was leonard :leonard
+c)george and leonard	10
+ a few years before , the squirrel had thrown a chestnut at george and nancy 's son :george
+d)magneson and nellie	10
+ a short time later , the squirrel came out of the tree and threw a giant walnut at magneson :magneson
+^INCORRECT^
+
+
+-----------------------
+Text: one day magneson took a walk in the park.  he passed some trees and a pond.  in the pond was a duck named george.  george's wife was also in the pond.  her name was nancy.  magneson walked over to the tree.  nancy flew up into the tree.  she wanted to warn magneson about the killer squirrel who lived inside of the tree.  a few years before, the squirrel had thrown a chestnut at george and nancy's son.  he was knocked out, and the squirrel took him away.  he was never seen again.  magneson asked what their son's name was.  they said it was leonard.  but magneson was only making small talk.  he didn't believe the story about the killer squirrel.  even if there was one, there were many rocks by the pond that he could throw at the squirrel.  he could also hide in the tall grass.  george and nancy were sorry to see that magneson wouldn't listen.  they flew away, singing a sad song.  a short time later, the squirrel came out of the tree and threw a giant walnut at magneson.  no one ever saw magneson again.
+Question: what did the squirrel throw at magneson?: magneson, NONE
+a)a chestnut	6
+ a few years before , the squirrel had thrown a chestnut at george and nancy 's son :chestnut
+****b)a giant walnut	8
+ a short time later , the squirrel came out of the tree and threw a giant walnut at magneson :walnut
+c)a duck	6
+ in the pond was a duck named george :duck
+d)a rock	8
+ even if there was one , there were many rocks by the pond that he could throw at the squirrel :rock
+^CORRECT^
+
+
+-----------------------
+Text: one day magneson took a walk in the park.  he passed some trees and a pond.  in the pond was a duck named george.  george's wife was also in the pond.  her name was nancy.  magneson walked over to the tree.  nancy flew up into the tree.  she wanted to warn magneson about the killer squirrel who lived inside of the tree.  a few years before, the squirrel had thrown a chestnut at george and nancy's son.  he was knocked out, and the squirrel took him away.  he was never seen again.  magneson asked what their son's name was.  they said it was leonard.  but magneson was only making small talk.  he didn't believe the story about the killer squirrel.  even if there was one, there were many rocks by the pond that he could throw at the squirrel.  he could also hide in the tall grass.  george and nancy were sorry to see that magneson wouldn't listen.  they flew away, singing a sad song.  a short time later, the squirrel came out of the tree and threw a giant walnut at magneson.  no one ever saw magneson again.
+Question: where did magneson walk?: magneson, walk
+a)in the trees	10
+ magneson walked over to the tree :trees
+b)in the pond	8
+ he passed some trees and a pond :pond
+****c)in the park	10
+one day magneson took a walk in the park :park
+d)in the tall grass	8
+ he could also hide in the tall grass :grass
+^INCORRECT^
+
+
+-----------------------
+Text: every monday morning, the little bad boy named josh goes to school.  suddenly, little josh slips on a banana skin ...  - ouch, says josh, i fell on this and in addition i got a bump on the forehead!  - wonderful! said the banana peel. i am mary. i turned into banana skin after throwing trash on the school yard. you have saved me and now i'm back to good old mary. what's your name?  - mine is josh... i'm a late to class ... are you serious, where is the banana peel anyways?  - the banana, my dear josh, was eaten by me, i threw the banana peel and turned into one ... now you saved me, can you see the banana peel you slipped on around here?  - no, you are right.  - mary said:  josh, thank you  - excuse me, mary ... i have to go ... otherwise i'll be late for school ... and i would not want to upset the teacher.
+Question: who slipped on a banana skin?: banana, slipped
+****a)josh	10
+ suddenly , little josh slips on a banana skin ...  - ouch , says josh , i fell on this and in addition i got a bump on the forehead :josh
+b)john	4
+ suddenly , little josh slips on a banana skin ...  - ouch , says josh , i fell on this and in addition i got a bump on the forehead :john
+c)mary	6
+i am mary :mary
+d)kate	4
+ suddenly , little josh slips on a banana skin ...  - ouch , says josh , i fell on this and in addition i got a bump on the forehead :kate
+^CORRECT^
+
+
+-----------------------
+Text: every monday morning, the little bad boy named josh goes to school.  suddenly, little josh slips on a banana skin ...  - ouch, says josh, i fell on this and in addition i got a bump on the forehead!  - wonderful! said the banana peel. i am mary. i turned into banana skin after throwing trash on the school yard. you have saved me and now i'm back to good old mary. what's your name?  - mine is josh... i'm a late to class ... are you serious, where is the banana peel anyways?  - the banana, my dear josh, was eaten by me, i threw the banana peel and turned into one ... now you saved me, can you see the banana peel you slipped on around here?  - no, you are right.  - mary said:  josh, thank you  - excuse me, mary ... i have to go ... otherwise i'll be late for school ... and i would not want to upset the teacher.
+Question: why josh was in such a hurry?: josh, NONE
+a)josh had a soccer game to play.	8
+every monday morning , the little bad boy named josh goes to school :josh
+b)josh was going back home.	8
+every monday morning , the little bad boy named josh goes to school :josh
+c)josh was heading to the school yard.	8
+every monday morning , the little bad boy named josh goes to school :josh
+****d)josh was late to class.	8
+every monday morning , the little bad boy named josh goes to school :josh
+^INCORRECT^
+
+
+-----------------------
+Text: every monday morning, the little bad boy named josh goes to school.  suddenly, little josh slips on a banana skin ...  - ouch, says josh, i fell on this and in addition i got a bump on the forehead!  - wonderful! said the banana peel. i am mary. i turned into banana skin after throwing trash on the school yard. you have saved me and now i'm back to good old mary. what's your name?  - mine is josh... i'm a late to class ... are you serious, where is the banana peel anyways?  - the banana, my dear josh, was eaten by me, i threw the banana peel and turned into one ... now you saved me, can you see the banana peel you slipped on around here?  - no, you are right.  - mary said:  josh, thank you  - excuse me, mary ... i have to go ... otherwise i'll be late for school ... and i would not want to upset the teacher.
+Question: who turned into banana skin after throwing trash on the school yard?: banana, turned
+****a)mary	6
+i am mary :mary
+b)kate	4
+i turned into banana skin after throwing trash on the school yard :kate
+c)josh	10
+ - the banana , my dear josh , was eaten by me , i threw the banana peel and turned into one ... now you saved me , can you see the banana peel you slipped on around here :josh
+d)peter	4
+i turned into banana skin after throwing trash on the school yard :peter
+^INCORRECT^
+
+
+-----------------------
+Text: every monday morning, the little bad boy named josh goes to school.  suddenly, little josh slips on a banana skin ...  - ouch, says josh, i fell on this and in addition i got a bump on the forehead!  - wonderful! said the banana peel. i am mary. i turned into banana skin after throwing trash on the school yard. you have saved me and now i'm back to good old mary. what's your name?  - mine is josh... i'm a late to class ... are you serious, where is the banana peel anyways?  - the banana, my dear josh, was eaten by me, i threw the banana peel and turned into one ... now you saved me, can you see the banana peel you slipped on around here?  - no, you are right.  - mary said:  josh, thank you  - excuse me, mary ... i have to go ... otherwise i'll be late for school ... and i would not want to upset the teacher.
+Question: who are the principal characters of the story: characters, are
+a)mary and kate	8
+i am mary :mary
+****b)mary and josh	8
+i am mary :mary
+c)josh and peter	8
+ - mine is josh ... i 'm a late to class ... are you serious , where is the banana peel anyways :josh
+d)kate and josh	2
+i am mary :kate
+^INCORRECT^
+
+
+-----------------------
+Text: once there was a young boy named bret who had a cat named wolfgang.  the boy had really wanted a wolf for a pet, but his mother said wolves liked to hog the bathroom and liked to blow things down and they snored.  so the boy had to call his cat wolfie.  he had also thought about naming his cat sir purrsalot.  bret himself planned to become a knight when he grew up (or maybe a cowboy) and thought sir purrsalot sounded like a good name for his brother knight.  the difficulty there was that wolfie didn't purr a lot.  he purred when he was being fed or petted, but no one could say he purred a lot.  plus bret's mother said knights liked to poke things with their swords and they also liked to hog the bathroom and they clanked.  so bret was left with a cat named wolfgang.  the neighbors gave him strange looks when he stood in the front yard in the evening and yelled "wolfie!  here wolfie!!!", to get wolfgang to come in for the night.  but bret didn't care what anyone else thought.  he had a wolfie and maybe he'd end up becoming a pet doctor when he grew up instead.
+Question: when did wolfie purr?: wolfie, purr
+a)when hogging the bathroom	6
+ the boy had really wanted a wolf for a pet , but his mother said wolves liked to hog the bathroom and liked to blow things down and they snored :bathroom
+****b)when petted	10
+ he purred when he was being fed or petted , but no one could say he purred a lot :petted
+c)when poked	6
+ plus bret 's mother said knights liked to poke things with their swords and they also liked to hog the bathroom and they clanked :poked
+d)when sleeping	4
+ the difficulty there was that wolfie did n't purr a lot :sleeping
+^CORRECT^
+
+
+-----------------------
+Text: once there was a young boy named bret who had a cat named wolfgang.  the boy had really wanted a wolf for a pet, but his mother said wolves liked to hog the bathroom and liked to blow things down and they snored.  so the boy had to call his cat wolfie.  he had also thought about naming his cat sir purrsalot.  bret himself planned to become a knight when he grew up (or maybe a cowboy) and thought sir purrsalot sounded like a good name for his brother knight.  the difficulty there was that wolfie didn't purr a lot.  he purred when he was being fed or petted, but no one could say he purred a lot.  plus bret's mother said knights liked to poke things with their swords and they also liked to hog the bathroom and they clanked.  so bret was left with a cat named wolfgang.  the neighbors gave him strange looks when he stood in the front yard in the evening and yelled "wolfie!  here wolfie!!!", to get wolfgang to come in for the night.  but bret didn't care what anyone else thought.  he had a wolfie and maybe he'd end up becoming a pet doctor when he grew up instead.
+Question: what was the name of the cat?: name, NONE
+a)bret	8
+once there was a young boy named bret who had a cat named wolfgang :bret
+b)buster	2
+once there was a young boy named bret who had a cat named wolfgang :buster
+****c)wolfgang	8
+once there was a young boy named bret who had a cat named wolfgang :wolfgang
+d)sir purrsalot	8
+ he had also thought about naming his cat sir purrsalot :sir
+^INCORRECT^
+
+
+-----------------------
+Text: once there was a young boy named bret who had a cat named wolfgang.  the boy had really wanted a wolf for a pet, but his mother said wolves liked to hog the bathroom and liked to blow things down and they snored.  so the boy had to call his cat wolfie.  he had also thought about naming his cat sir purrsalot.  bret himself planned to become a knight when he grew up (or maybe a cowboy) and thought sir purrsalot sounded like a good name for his brother knight.  the difficulty there was that wolfie didn't purr a lot.  he purred when he was being fed or petted, but no one could say he purred a lot.  plus bret's mother said knights liked to poke things with their swords and they also liked to hog the bathroom and they clanked.  so bret was left with a cat named wolfgang.  the neighbors gave him strange looks when he stood in the front yard in the evening and yelled "wolfie!  here wolfie!!!", to get wolfgang to come in for the night.  but bret didn't care what anyone else thought.  he had a wolfie and maybe he'd end up becoming a pet doctor when he grew up instead.
+Question: what was one reasong his mother didn't like knights?: mother, like
+a)they grew up	-8
+ bret himself planned to become a knight when he grew up ( or maybe a cowboy ) and thought sir purrsalot sounded like a good name for his brother knight :grew
+b)they purred	-6
+ the difficulty there was that wolfie did n't purr a lot :purred
+c)they snored	-10
+ the boy had really wanted a wolf for a pet , but his mother said wolves liked to hog the bathroom and liked to blow things down and they snored :snored
+****d)they clanked	-10
+ plus bret 's mother said knights liked to poke things with their swords and they also liked to hog the bathroom and they clanked :clanked
+^INCORRECT^
+
+
+-----------------------
+Text: once there was a young boy named bret who had a cat named wolfgang.  the boy had really wanted a wolf for a pet, but his mother said wolves liked to hog the bathroom and liked to blow things down and they snored.  so the boy had to call his cat wolfie.  he had also thought about naming his cat sir purrsalot.  bret himself planned to become a knight when he grew up (or maybe a cowboy) and thought sir purrsalot sounded like a good name for his brother knight.  the difficulty there was that wolfie didn't purr a lot.  he purred when he was being fed or petted, but no one could say he purred a lot.  plus bret's mother said knights liked to poke things with their swords and they also liked to hog the bathroom and they clanked.  so bret was left with a cat named wolfgang.  the neighbors gave him strange looks when he stood in the front yard in the evening and yelled "wolfie!  here wolfie!!!", to get wolfgang to come in for the night.  but bret didn't care what anyone else thought.  he had a wolfie and maybe he'd end up becoming a pet doctor when he grew up instead.
+Question: what was one reason his mother didn't like wolves?: mother, like
+a)they yelled	-6
+ the neighbors gave him strange looks when he stood in the front yard in the evening and yelled " wolfie :yelled
+b)they barked	-4
+ the boy had really wanted a wolf for a pet , but his mother said wolves liked to hog the bathroom and liked to blow things down and they snored :barked
+c)they purred	-6
+ the difficulty there was that wolfie did n't purr a lot :purred
+****d)they snored	-10
+ the boy had really wanted a wolf for a pet , but his mother said wolves liked to hog the bathroom and liked to blow things down and they snored :snored
+^INCORRECT^
+
+
+-----------------------
+Text: sally liked going outside.  she put on her shoes. she went outside to walk.  she walked on the green grass.  the sun was warm.  the trees were tall. the birds sang in the trees. sally liked how the birds can sing.  sally likes to sing with the birds, outside.  ring, ring, is how the birds sang. sally sang ring, ring, with the birds in the trees. sally took off her shoes.  sally liked how the green grass was on her toes.  sally's toes liked the green grass.  sally walked on the green grass some more.  she saw missy the cat. missy the cat meowed to sally.  sally waved to missy the cat.  sally likes missy the cat. sally likes to meow to missy the cat.  meow, meow, sally says to missy the cat. missy the cat walks away from sally.  sally hears her name.  sally, sally, come home, sally's mom calls out.  sally runs home to her mom.  sally liked going outside.
+Question: why did sally put on her shoes?: sally, put
+a)to wave to missy the cat	8
+ she saw missy the cat :missy
+b)to hear her name	8
+ sally hears her name :name
+****c)because she wanted to go outside	4
+ she put on her shoes :wanted
+d)to come home	8
+ sally , sally , come home , sally 's mom calls out :come
+^INCORRECT^
+
+
+-----------------------
+Text: sally liked going outside.  she put on her shoes. she went outside to walk.  she walked on the green grass.  the sun was warm.  the trees were tall. the birds sang in the trees. sally liked how the birds can sing.  sally likes to sing with the birds, outside.  ring, ring, is how the birds sang. sally sang ring, ring, with the birds in the trees. sally took off her shoes.  sally liked how the green grass was on her toes.  sally's toes liked the green grass.  sally walked on the green grass some more.  she saw missy the cat. missy the cat meowed to sally.  sally waved to missy the cat.  sally likes missy the cat. sally likes to meow to missy the cat.  meow, meow, sally says to missy the cat. missy the cat walks away from sally.  sally hears her name.  sally, sally, come home, sally's mom calls out.  sally runs home to her mom.  sally liked going outside.
+Question: what did sally like to do?: sally, do
+****a)sally liked going outside	8
+sally liked going outside :sally
+b)walk on the green grass	8
+ she walked on the green grass :grass
+c)put on her shoes	8
+ she put on her shoes :shoes
+d)take off her shoes	8
+ she put on her shoes :shoes
+^CORRECT^
+
+
+-----------------------
+Text: sally liked going outside.  she put on her shoes. she went outside to walk.  she walked on the green grass.  the sun was warm.  the trees were tall. the birds sang in the trees. sally liked how the birds can sing.  sally likes to sing with the birds, outside.  ring, ring, is how the birds sang. sally sang ring, ring, with the birds in the trees. sally took off her shoes.  sally liked how the green grass was on her toes.  sally's toes liked the green grass.  sally walked on the green grass some more.  she saw missy the cat. missy the cat meowed to sally.  sally waved to missy the cat.  sally likes missy the cat. sally likes to meow to missy the cat.  meow, meow, sally says to missy the cat. missy the cat walks away from sally.  sally hears her name.  sally, sally, come home, sally's mom calls out.  sally runs home to her mom.  sally liked going outside.
+Question: what was the name of the cat?: name, NONE
+a)meow	6
+missy the cat meowed to sally :meow
+****b)missy	6
+ she saw missy the cat :missy
+c)sally	8
+ sally hears her name :sally
+d)ring	6
+ ring , ring , is how the birds sang :ring
+^INCORRECT^
+
+
+-----------------------
+Text: sally liked going outside.  she put on her shoes. she went outside to walk.  she walked on the green grass.  the sun was warm.  the trees were tall. the birds sang in the trees. sally liked how the birds can sing.  sally likes to sing with the birds, outside.  ring, ring, is how the birds sang. sally sang ring, ring, with the birds in the trees. sally took off her shoes.  sally liked how the green grass was on her toes.  sally's toes liked the green grass.  sally walked on the green grass some more.  she saw missy the cat. missy the cat meowed to sally.  sally waved to missy the cat.  sally likes missy the cat. sally likes to meow to missy the cat.  meow, meow, sally says to missy the cat. missy the cat walks away from sally.  sally hears her name.  sally, sally, come home, sally's mom calls out.  sally runs home to her mom.  sally liked going outside.
+Question: who called sally?: sally, called
+a)missy the cat	8
+ she saw missy the cat :missy
+b)the birds	8
+sally liked how the birds can sing :birds
+c)the trees	8
+sally sang ring , ring , with the birds in the trees :trees
+****d)her mom	10
+ sally , sally , come home , sally 's mom calls out :mom
+^CORRECT^
+
+
+-----------------------
+Text: tammy likes the park. there are swings at the park. there is a slide at the park.    mary goes to the park with tammy. they jump rope. they play tag. they like the park.  tammy and mary have fun at the park. tammy has a dog named max. tammy and mary take max to the park.  max likes the park. he chases rabbits. he chases a ball. tammy throws the ball to max. mary throws the ball to max.  the park is no fun in the rain. tammy and mary cannot go to the park when it rains. mother says no. they are sad when they cannot go to the park.  tammy and mary play in the house when it rains. they play with dolls. they dress up and have a tea party.  today is sunny. tammy and mary can go to the park. mother says yes. they can take max to the park. they are happy when it is sunny.
+Question: who has a dog?: dog, has
+a)the park	8
+ tammy and mary have fun at the park :park
+b)max	10
+tammy has a dog named max :max
+****c)tammy	10
+tammy has a dog named max :tammy
+d)mary	8
+ tammy and mary have fun at the park :mary
+^INCORRECT^
+
+
+-----------------------
+Text: tammy likes the park. there are swings at the park. there is a slide at the park.    mary goes to the park with tammy. they jump rope. they play tag. they like the park.  tammy and mary have fun at the park. tammy has a dog named max. tammy and mary take max to the park.  max likes the park. he chases rabbits. he chases a ball. tammy throws the ball to max. mary throws the ball to max.  the park is no fun in the rain. tammy and mary cannot go to the park when it rains. mother says no. they are sad when they cannot go to the park.  tammy and mary play in the house when it rains. they play with dolls. they dress up and have a tea party.  today is sunny. tammy and mary can go to the park. mother says yes. they can take max to the park. they are happy when it is sunny.
+Question: what do tammy and mary do when it rains?: tammy, do
+a)go to the park	8
+tammy likes the park :park
+****b)play with dolls, have a tea party	8
+ tammy and mary play in the house when it rains :play
+c)play ball	8
+he chases a ball :ball
+d)chase rabbits	8
+he chases rabbits :chase
+^INCORRECT^
+
+
+-----------------------
+Text: tammy likes the park. there are swings at the park. there is a slide at the park.    mary goes to the park with tammy. they jump rope. they play tag. they like the park.  tammy and mary have fun at the park. tammy has a dog named max. tammy and mary take max to the park.  max likes the park. he chases rabbits. he chases a ball. tammy throws the ball to max. mary throws the ball to max.  the park is no fun in the rain. tammy and mary cannot go to the park when it rains. mother says no. they are sad when they cannot go to the park.  tammy and mary play in the house when it rains. they play with dolls. they dress up and have a tea party.  today is sunny. tammy and mary can go to the park. mother says yes. they can take max to the park. they are happy when it is sunny.
+Question: who likes to go to the park?: park, likes
+a)dolls	6
+they play with dolls :dolls
+b)mother	6
+mother says no :mother
+****c)tammy and mary	10
+tammy likes the park :tammy
+d)the rabbits	6
+he chases rabbits :rabbits
+^CORRECT^
+
+
+-----------------------
+Text: tammy likes the park. there are swings at the park. there is a slide at the park.    mary goes to the park with tammy. they jump rope. they play tag. they like the park.  tammy and mary have fun at the park. tammy has a dog named max. tammy and mary take max to the park.  max likes the park. he chases rabbits. he chases a ball. tammy throws the ball to max. mary throws the ball to max.  the park is no fun in the rain. tammy and mary cannot go to the park when it rains. mother says no. they are sad when they cannot go to the park.  tammy and mary play in the house when it rains. they play with dolls. they dress up and have a tea party.  today is sunny. tammy and mary can go to the park. mother says yes. they can take max to the park. they are happy when it is sunny.
+Question: what is the the name of the dog?: name, is
+a)mother	6
+mother says no :mother
+****b)max	8
+tammy has a dog named max :max
+c)tammy	8
+tammy has a dog named max :tammy
+d)mary	6
+ mary goes to the park with tammy :mary
+^CORRECT^
+
+
+-----------------------
+Text: once upon a time, there was a dog named puddles. puddles was lonely because he lived in an area where there were no other dogs, but only cats. day after day, puddles would have to eat cat food and do cat things in order to fit in with the rest of his group. he found it very boring and puddles was sad. puddles didn't even look like a cat!  all of the other cats teased puddles. "you're too big," they said. "you've got too long of a nose!" "why are you panting like that?" puddles knew that he was different.  one day, puddles chose to run away from all of the cats. the cats laughed at him. what a stupid dog! didn't he know that there were monsters in the woods that could eat him? puddles didn't care, because puddles was sad enough to try.  so puddles packed up his things - his squeaky ball, his water dish, and his bone - and headed off into the woods. he was finally happy! all of a sudden, puddles turned. he smelled a funny smell. it smelled like something he had never smelled before. he turned around, and what did he see but another dog!  puddles was so happy, he barked with joy. he went home with the other dog, who was named mittens, and to his family. puddles was never lonely again.
+Question: why did the cats not like him?: cats, NONE
+a)he didn't eat cat food	-8
+day after day , puddles would have to eat cat food and do cat things in order to fit in with the rest of his group :eat
+b)he had a long nose	-8
+day after day , puddles would have to eat cat food and do cat things in order to fit in with the rest of his group :had
+****c)he was different	-8
+puddles was lonely because he lived in an area where there were no other dogs , but only cats :he
+d)he panted	-6
+" " why are you panting like that :panted
+^INCORRECT^
+
+
+-----------------------
+Text: once upon a time, there was a dog named puddles. puddles was lonely because he lived in an area where there were no other dogs, but only cats. day after day, puddles would have to eat cat food and do cat things in order to fit in with the rest of his group. he found it very boring and puddles was sad. puddles didn't even look like a cat!  all of the other cats teased puddles. "you're too big," they said. "you've got too long of a nose!" "why are you panting like that?" puddles knew that he was different.  one day, puddles chose to run away from all of the cats. the cats laughed at him. what a stupid dog! didn't he know that there were monsters in the woods that could eat him? puddles didn't care, because puddles was sad enough to try.  so puddles packed up his things - his squeaky ball, his water dish, and his bone - and headed off into the woods. he was finally happy! all of a sudden, puddles turned. he smelled a funny smell. it smelled like something he had never smelled before. he turned around, and what did he see but another dog!  puddles was so happy, he barked with joy. he went home with the other dog, who was named mittens, and to his family. puddles was never lonely again.
+Question: where did puddles live in the beginning?: puddles, live
+a)with cats and dogs	10
+puddles was lonely because he lived in an area where there were no other dogs , but only cats :cats
+****b)in a group of cats	8
+day after day , puddles would have to eat cat food and do cat things in order to fit in with the rest of his group :group
+c)in a group of dogs	8
+day after day , puddles would have to eat cat food and do cat things in order to fit in with the rest of his group :group
+d)with humans	4
+puddles was lonely because he lived in an area where there were no other dogs , but only cats :humans
+^INCORRECT^
+
+
+-----------------------
+Text: once upon a time, there was a dog named puddles. puddles was lonely because he lived in an area where there were no other dogs, but only cats. day after day, puddles would have to eat cat food and do cat things in order to fit in with the rest of his group. he found it very boring and puddles was sad. puddles didn't even look like a cat!  all of the other cats teased puddles. "you're too big," they said. "you've got too long of a nose!" "why are you panting like that?" puddles knew that he was different.  one day, puddles chose to run away from all of the cats. the cats laughed at him. what a stupid dog! didn't he know that there were monsters in the woods that could eat him? puddles didn't care, because puddles was sad enough to try.  so puddles packed up his things - his squeaky ball, his water dish, and his bone - and headed off into the woods. he was finally happy! all of a sudden, puddles turned. he smelled a funny smell. it smelled like something he had never smelled before. he turned around, and what did he see but another dog!  puddles was so happy, he barked with joy. he went home with the other dog, who was named mittens, and to his family. puddles was never lonely again.
+Question: what does puddles choose to do?: puddles, choose
+****a)go into the woods	8
+ so puddles packed up his things - his squeaky ball , his water dish , and his bone - and headed off into the woods :woods
+b)go to sleep	6
+he went home with the other dog , who was named mittens , and to his family :go
+c)eat cat food	10
+ one day , puddles chose to run away from all of the cats :cat
+d)become a cat	10
+ one day , puddles chose to run away from all of the cats :cat
+^INCORRECT^
+
+
+-----------------------
+Text: once upon a time, there was a dog named puddles. puddles was lonely because he lived in an area where there were no other dogs, but only cats. day after day, puddles would have to eat cat food and do cat things in order to fit in with the rest of his group. he found it very boring and puddles was sad. puddles didn't even look like a cat!  all of the other cats teased puddles. "you're too big," they said. "you've got too long of a nose!" "why are you panting like that?" puddles knew that he was different.  one day, puddles chose to run away from all of the cats. the cats laughed at him. what a stupid dog! didn't he know that there were monsters in the woods that could eat him? puddles didn't care, because puddles was sad enough to try.  so puddles packed up his things - his squeaky ball, his water dish, and his bone - and headed off into the woods. he was finally happy! all of a sudden, puddles turned. he smelled a funny smell. it smelled like something he had never smelled before. he turned around, and what did he see but another dog!  puddles was so happy, he barked with joy. he went home with the other dog, who was named mittens, and to his family. puddles was never lonely again.
+Question: who did puddles find?: puddles, find
+a)food	8
+day after day , puddles would have to eat cat food and do cat things in order to fit in with the rest of his group :food
+b)a monster	6
+did n't he know that there were monsters in the woods that could eat him :monster
+****c)a dog family	8
+once upon a time , there was a dog named puddles :dog
+d)a group of cats	8
+day after day , puddles would have to eat cat food and do cat things in order to fit in with the rest of his group :group
+^INCORRECT^
+
+
+-----------------------
+Text: once upon a time there was a princess who lived in a high tower and she was not allowed to leave because of her mean mother. one day she chose to leave but her mother would not let her. the princess climbed out the window of the high tower and climbed down the south wall when her mother was sleeping. she wandered out a good ways. finally she went into the forest where there are no electric poles but where there are some caves.  there she met a young man who was running. his name was john. john asked the princess why such a beautiful woman like her was out in the middle of a forest. she said that she had been trapped for her whole life by an evil woman who said she was her mother. the man said that he would take the princess to a castle that was near. he also said that he thought that she may be the missing princess. as they go through the forest they run into many problems. they see that they are lost and have no way of finding where to go. after several days pass, the princess climbs up to the top of a tree in order to find out where they are. she sees that the castle where they want to go is not that far away and near a mountain. after thinking of the best way to get there, john and the princess go to the castle where they live for the rest of their lives.
+Question: where did the princess wander to after escaping?: princess, wander
+a)mountain	6
+she sees that the castle where they want to go is not that far away and near a mountain :mountain
+****b)forest	8
+john asked the princess why such a beautiful woman like her was out in the middle of a forest :forest
+c)cave	6
+finally she went into the forest where there are no electric poles but where there are some caves :cave
+d)castle	8
+the man said that he would take the princess to a castle that was near :castle
+^CORRECT^
+
+
+-----------------------
+Text: once upon a time there was a princess who lived in a high tower and she was not allowed to leave because of her mean mother. one day she chose to leave but her mother would not let her. the princess climbed out the window of the high tower and climbed down the south wall when her mother was sleeping. she wandered out a good ways. finally she went into the forest where there are no electric poles but where there are some caves.  there she met a young man who was running. his name was john. john asked the princess why such a beautiful woman like her was out in the middle of a forest. she said that she had been trapped for her whole life by an evil woman who said she was her mother. the man said that he would take the princess to a castle that was near. he also said that he thought that she may be the missing princess. as they go through the forest they run into many problems. they see that they are lost and have no way of finding where to go. after several days pass, the princess climbs up to the top of a tree in order to find out where they are. she sees that the castle where they want to go is not that far away and near a mountain. after thinking of the best way to get there, john and the princess go to the castle where they live for the rest of their lives.
+Question: who escaped from the tower?: tower, escaped
+a)mother	8
+once upon a time there was a princess who lived in a high tower and she was not allowed to leave because of her mean mother :mother
+****b)princess	8
+once upon a time there was a princess who lived in a high tower and she was not allowed to leave because of her mean mother :princess
+c)man	6
+ there she met a young man who was running :man
+d)john	6
+his name was john :john
+^INCORRECT^
+
+
+-----------------------
+Text: once upon a time there was a princess who lived in a high tower and she was not allowed to leave because of her mean mother. one day she chose to leave but her mother would not let her. the princess climbed out the window of the high tower and climbed down the south wall when her mother was sleeping. she wandered out a good ways. finally she went into the forest where there are no electric poles but where there are some caves.  there she met a young man who was running. his name was john. john asked the princess why such a beautiful woman like her was out in the middle of a forest. she said that she had been trapped for her whole life by an evil woman who said she was her mother. the man said that he would take the princess to a castle that was near. he also said that he thought that she may be the missing princess. as they go through the forest they run into many problems. they see that they are lost and have no way of finding where to go. after several days pass, the princess climbs up to the top of a tree in order to find out where they are. she sees that the castle where they want to go is not that far away and near a mountain. after thinking of the best way to get there, john and the princess go to the castle where they live for the rest of their lives.
+Question: what did the princess climb to see the castle?: princess, climb
+a)electric pole	6
+finally she went into the forest where there are no electric poles but where there are some caves :electric
+b)mountain	6
+she sees that the castle where they want to go is not that far away and near a mountain :mountain
+****c)tree	10
+after several days pass , the princess climbs up to the top of a tree in order to find out where they are :tree
+d)castle	8
+the man said that he would take the princess to a castle that was near :castle
+^CORRECT^
+
+
+-----------------------
+Text: once upon a time there was a princess who lived in a high tower and she was not allowed to leave because of her mean mother. one day she chose to leave but her mother would not let her. the princess climbed out the window of the high tower and climbed down the south wall when her mother was sleeping. she wandered out a good ways. finally she went into the forest where there are no electric poles but where there are some caves.  there she met a young man who was running. his name was john. john asked the princess why such a beautiful woman like her was out in the middle of a forest. she said that she had been trapped for her whole life by an evil woman who said she was her mother. the man said that he would take the princess to a castle that was near. he also said that he thought that she may be the missing princess. as they go through the forest they run into many problems. they see that they are lost and have no way of finding where to go. after several days pass, the princess climbs up to the top of a tree in order to find out where they are. she sees that the castle where they want to go is not that far away and near a mountain. after thinking of the best way to get there, john and the princess go to the castle where they live for the rest of their lives.
+Question: where does the princess live in the beginning?: princess, live
+a)castle	10
+after thinking of the best way to get there , john and the princess go to the castle where they live for the rest of their lives :castle
+b)house	4
+once upon a time there was a princess who lived in a high tower and she was not allowed to leave because of her mean mother :house
+c)cave	6
+finally she went into the forest where there are no electric poles but where there are some caves :cave
+****d)high tower	10
+once upon a time there was a princess who lived in a high tower and she was not allowed to leave because of her mean mother :tower
+^INCORRECT^
+
+

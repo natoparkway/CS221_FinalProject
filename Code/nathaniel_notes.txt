@@ -1,0 +1,7 @@
+KEYWORD FEATURE
+---------------
+Initially we wrote the keyword feature such that it extracts the subject and main verb of the question and the ``most imporant" word in the answer. We identified the subject and main verb of the question by running each sentence through named entity recognition, part of speech parsing and dependency parsing. INCLUDE IMAGE FROM SPACY HERE. 
+
+The feature then runs through the story text and finds the most relevant sentence. Relevance is scored first by whether the answer appears in the sentence and then by whether the question's subject and main verb appear in the sentence. Alone, this scored 39.2\% on the dev set and improved our feature set by slightly more than 5\% (from 55\% to 58.2\%). This was a suprising lack of improvement - we thought that identifying these keywords would result in significantly more insight into which answer was correct.  
+
+After completing an analysis of feature, we noticed several reasons for this feature's relatively poor performance. One was that the feature had no way of identifying coreferent tokens. One example of this is the sentence ``she was sad when the camp was over, but promised to keep in touch with her new friend". ``She" refers to ``Sally", which the feature correctly identifies as the subject of the question we are trying to answer. By failing to identify that the two tokens are coreferent, we looses a key aspect of the keyword based feature. 
