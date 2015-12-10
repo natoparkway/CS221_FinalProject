@@ -5,12 +5,12 @@ from DataClasses import *
 def main():
     os.system("rm -rf storyTexts")
     os.system("mkdir storyTexts")
-    if not os.path.exists('./storyTexts/filelist'):
-        open("./storyTexts/filelist", "w").close()
+    if not os.path.exists("./storyTexts/filelist"):
+        open("./storyTexts/filelist", 'w').close()
     for dataset in ["mc160.dev", "mc160.train", "mc160.test", "mc500.dev", "mc500.train", "mc500.train", "mc500.test"]:
         #extractStoryTextsToFolder(dataset)
         # run coref here
-    parseXMLS()
+        parseXMLS()
 
 
 
@@ -20,8 +20,9 @@ def extractStoryTextsToFolder(dataset):
     with open("./storyTexts/filelist", "a") as filelist:
         for story in data.stories:
             print story.storyID
+            filePrefix = "../../CS221_FinalProject/Code/storyTexts/"
             storyText = story.casedText
-            filePath =  "../storyTexts/" + story.storyID
+            filePath =  filePrefix + story.storyID
             filelist.write(filePath)
             filelist.write("\n")
             with open("./storyTexts/" + story.storyID, "w") as f:
@@ -29,7 +30,7 @@ def extractStoryTextsToFolder(dataset):
                 f.flush()
                 os.fsync(f.fileno())
                 f.close()
-    filelist.close()
+        filelist.close()
 
 
 def parseXMLS():
