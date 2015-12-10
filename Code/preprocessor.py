@@ -1,4 +1,4 @@
-from util import *
+from nltk.stem import SnowballStemmer
 import re
 
 punctuation = ",.?!"

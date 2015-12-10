@@ -1,6 +1,5 @@
 import re
-from nltk.stem import SnowballStemmer
-from featureExtractor import getQuestionKeyWords, getSentenceForTesting
+from keywordBasedFeature import getQuestionKeyWords, getSentenceForTesting
 #### STRING UTILS ####
 def is_number(s):
     try:
@@ -117,7 +116,9 @@ def testWeightsOnStories(data, weights, featureExtractor):
 		outputFile.write("Text: " + proposedAnswers[0]['text'] + "\n")
 		question = proposedAnswers[0]['question']
 		queryWord, qSubj, qVerb = getQuestionKeyWords(proposedAnswers[0])
-		outputFile.write('Question: ' + question.text + ": " + qSubj + ", " + qVerb + "\n")
+		if not qSubj: qSubj = {"token": "NONE"}
+		if not qVerb: qVerb = {"token": "NONE"}
+		outputFile.write('Question: ' + question.text + ": " + qSubj['token'] + ", " + qVerb['token'] + "\n")
 
 
 		for aIndex, proposed in enumerate(proposedAnswers):
