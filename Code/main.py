@@ -13,15 +13,11 @@ def main():
 	"""
 	featureExtractor = betterFeatureExtractor 
 	preprocessor = removeStopwordsAndStem
-	testOnTrainSet = False 
-	testOn500 = False
-	testOn160 = True 
 	##########################################################################
 
 	print "Appending Data"
 	trainData = Dataset()
 	trainData.appendData("mc160.train", parse=True)
-	#trainData.appendData("mc500.train", parse=True)
 
 	print "Training"
 	classifier = LinearClassifier(numIters=20)
@@ -29,7 +25,6 @@ def main():
 
 	weights = classifier.trainCorrect(trainData.getEvaluationFormat(preprocessor), featureExtractor)
 	print weights
-	#weights = {'questionAnswerCooccurrence': 0.4000976800976802, 'questionAnswerKeyWordOccurence': 0.10, 'wordVecSumSimilarity': 1.1384311525234372}
 
 	testData = Dataset()
 	testData.appendData("mc160.dev", parse=True)

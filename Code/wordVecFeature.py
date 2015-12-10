@@ -5,6 +5,8 @@ from scipy import spatial
 
 queryWords = ["who", "what", "when", "why", "how", "which", "where", "can", "was", "did"]
 
+queryWords = ["who", "what", "when", "why", "how", "which", "where", "can", "was", "did"]
+
 # Returns an array of arrays of parsed tokens.
 # Each array in the original array represents one sentence in the text.
 # It is assumed sentences are separated by one of ".!?"
