@@ -1,0 +1,9 @@
+
+
+M. Richardson, C. Bruges and E. Renshaw. 2013. MCTest: A Challenge Dataset for the Open-Domain Machine Comprehension of Text. In Empirical Methods on Natural Language Processing 2013, 193-203.
+
+H. Wang, M. Bansal, K. Gimpel, D. McAllester. 2015. Machine Comprehension with Syntax, Frames, and Semantics. In ACL 2015. 
+
+E.M. Voorhees and D.M. Tice. 1999. The TREC-8 Question Answering Track Evaluation. In Proceedings of the Eighth Text Retrieval Conference (TREC-8).
+
+David Ferrucci, Eric Brown, Jennifer Chu-Carroll, James Fan, David Gondek, Aditya A Kalyanpur, Adam Lally, J William Murdock, Eric Nyberg, John Prager, et al. 2010. Building Watson: An overview of the DeepQA project. AI magazine, 31(3):59–79.

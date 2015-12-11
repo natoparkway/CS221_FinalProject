@@ -1,0 +1,9 @@
+Task definition: is the task precisely defined and does the formulation make sense?
+
+Approach: was a baseline, an oracle, and an advanced method described clearly, well justified, and tested?
+
+Data and experiments: have you explained the data clearly, performed systematic experiments, and reported concrete results?
+
+Analysis: did you interpret the results and try to explain why things worked (or didn't work) the way they did? Do you show concrete examples?
+
+Extra credit: does the project present interesting and novel ideas (i.e., would this be publishable at a good conference)?

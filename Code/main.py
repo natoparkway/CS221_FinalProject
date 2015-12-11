@@ -17,18 +17,24 @@ def main():
 
 	print "Appending Data"
 	trainData = Dataset()
-	trainData.appendData("mc160.train", parse=True)
+	#trainData.appendData("mc500.test", parse=True)
+	trainData.appendData("mc500.train", parse=True)
+	#trainData.appendData("mc160.dev", parse=True)
+	# trainData.appendData("mc500.dev", parse=True)
 
 	print "Training"
-	classifier = LinearClassifier(numIters=20)
+	classifier = LinearClassifier(numIters=6)
 	data = trainData.getClassifierFormat(preprocessor)
 
 	weights = classifier.trainCorrect(trainData.getEvaluationFormat(preprocessor), featureExtractor)
 	print weights
 
 	testData = Dataset()
-	testData.appendData("mc160.dev", parse=True)
+	testData.appendData("mc160.test", parse=True)
 	print testWeightsOnStories(testData.getEvaluationFormat(preprocessor), weights, featureExtractor)
+	#testData = Dataset()
+	#testData.appendData("mc500.test", parse=True)
+	#print testWeightsOnStories(testData.getEvaluationFormat(preprocessor), weights, featureExtractor)
 
 
 if __name__ == "__main__":

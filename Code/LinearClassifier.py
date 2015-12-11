@@ -16,7 +16,7 @@ def softmax(arr):
 
 class LinearClassifier:
 	def __init__(self, numIters):
-		self.numIters = 30 
+		self.numIters = numIters
 
 	#Stochastic gradient descent, using hingeLoss
 	def train(self, dataset, featureExtractor):
